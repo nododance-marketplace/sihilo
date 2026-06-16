@@ -1,0 +1,15 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+
+# Deploy tooling
+.netlify/
+.vercel/
+node_modules/
+
+# Local editor / agent settings
+.claude/
+
+# Internal brand document (not part of the deployed site)
+Sihilo_Brand_Bible.pdf
