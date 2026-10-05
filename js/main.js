@@ -277,7 +277,7 @@
   // Where the form posts. Plug in a real endpoint here (e.g. Formspree):
   //   const ENDPOINT = "https://formspree.io/f/your-id";
   const ENDPOINT = ""; // TODO: set to your Formspree/API endpoint to enable fetch submit.
-  const CONTACT_EMAIL = "hello@sihilo.com"; // TODO: replace with the real inbox.
+  const CONTACT_EMAIL = "moisesjdelcastillo@gmail.com";
 
   if (form) {
     const fields = {

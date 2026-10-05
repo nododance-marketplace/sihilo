@@ -101,7 +101,7 @@ an endpoint. Everything lives at the top of the form section in
 
 ```js
 const ENDPOINT = "";                    // ← set this
-const CONTACT_EMAIL = "hello@sihilo.com"; // ← set the real inbox
+const CONTACT_EMAIL = "moisesjdelcastillo@gmail.com";
 ```
 
 ### Option A — Formspree (no backend)
