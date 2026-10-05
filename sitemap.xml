@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Replace https://sihilo.com/ with your real domain before launch. -->
+<!-- Keep aligned with the canonical origin in index.html. -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://sihilo.com/</loc>
+    <loc>https://sihilo.vercel.app/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>

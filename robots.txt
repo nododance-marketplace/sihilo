@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-# Update to your real domain before launch.
-Sitemap: https://sihilo.com/sitemap.xml
+# Keep aligned with the canonical origin in index.html.
+Sitemap: https://sihilo.vercel.app/sitemap.xml

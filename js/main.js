@@ -139,138 +139,27 @@
   /* ---------------------------------------------------------
      5. DASHBOARD MOCKUP — simulated, illustrative only
      --------------------------------------------------------- */
-  const pad = (n) => String(n).padStart(2, "0");
-
-  // 5a. Ticking clock (runs even with reduced motion — it's information, not motion)
-  const clockEl = document.getElementById("dashClock");
-  if (clockEl) {
-    const tick = () => {
-      const d = new Date();
-      clockEl.textContent = `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(
-        d.getSeconds()
-      )}`;
-    };
-    tick();
-    setInterval(tick, 1000);
-  }
-
-  // 5b. Anomaly feed + status bar + sensors (animated; skipped on reduced motion)
-  const alertFeed = document.getElementById("alertFeed");
-  const statusEl = document.getElementById("dashStatus");
-  const statusText = statusEl
-    ? statusEl.querySelector(".dash__status-text")
-    : null;
-
-  const EVENTS = [
-    { tag: "CAM-01", body: "Motion · parking lot A", incident: false },
-    { tag: "ACOUSTIC", body: "Ambient noise within range", incident: false },
-    { tag: "RF", body: "Known device rejoined network", incident: false },
-    { tag: "CAM-04", body: "Wildlife crossing · rooftop", incident: false },
-    { tag: "CAM-03", body: "Person detected · perimeter E", incident: true },
-    { tag: "CAM-02", body: "Vehicle idle · loading dock", incident: false },
-    { tag: "RF/WI-FI", body: "Unknown device in range", incident: false },
-    { tag: "CAM-01", body: "Cleared · no anomaly", incident: false },
-  ];
-
-  const timeStamp = () => {
-    const d = new Date();
-    return `${pad(d.getHours())}:${pad(d.getMinutes())}:${pad(d.getSeconds())}`;
-  };
-
-  const addAlert = (evt) => {
-    if (!alertFeed) return;
-    const li = document.createElement("li");
-    li.className = "rail__alert" + (evt.incident ? " is-incident" : "");
-    li.innerHTML =
-      '<div class="rail__alert-top">' +
-      '<span class="rail__alert-tag">' +
-      evt.tag +
-      "</span>" +
-      '<span class="rail__alert-time">' +
-      timeStamp() +
-      "</span>" +
-      "</div>" +
-      "<span>" +
-      evt.body +
-      "</span>";
-    alertFeed.prepend(li);
-    // Keep the feed short
-    while (alertFeed.children.length > 4) {
-      alertFeed.removeChild(alertFeed.lastChild);
+  // The dashboard is a static, explicitly labelled concept, not live telemetry.
+  const motionToggle = document.getElementById("motionToggle");
+  let motionPaused = prefersReducedMotion;
+  const applyMotion = () => {
+    document.body.classList.toggle("motion-paused", motionPaused);
+    if (motionToggle) {
+      motionToggle.textContent = motionPaused ? "Play motion" : "Pause motion";
+      motionToggle.setAttribute("aria-pressed", String(motionPaused));
+    }
+    if (heroVideo) {
+      if (motionPaused) heroVideo.pause();
+      else heroVideo.play().catch(() => {});
     }
   };
+  if (motionToggle) motionToggle.addEventListener("click", () => {
+    motionPaused = !motionPaused;
+    applyMotion();
+  });
+  applyMotion();
 
-  const setStatus = (incident) => {
-    if (!statusEl || !statusText) return;
-    statusEl.dataset.state = incident ? "incident" : "clear";
-    statusText.textContent = incident ? "1 VERIFIED INCIDENT" : "ALL CLEAR";
-  };
-
-  if (alertFeed) {
-    // Seed a few entries so the panel isn't empty on load
-    addAlert(EVENTS[0]);
-    addAlert(EVENTS[1]);
-
-    if (!prefersReducedMotion) {
-      let i = 2;
-      setInterval(() => {
-        const evt = EVENTS[i % EVENTS.length];
-        addAlert(evt);
-        if (evt.incident) {
-          setStatus(true);
-          // Auto-resolve the incident after a short window
-          setTimeout(() => setStatus(false), 6000);
-        }
-        i++;
-      }, 3200);
-    } else {
-      // Static, representative end-state for reduced motion
-      addAlert(EVENTS[4]);
-      setStatus(true);
-    }
-  }
-
-  // 5c. Sensor readouts — gentle fluctuation
-  const dbVal = document.getElementById("dbVal");
-  const dbFill = document.getElementById("dbFill");
-  const rfVal = document.getElementById("rfVal");
-  const rfFill = document.getElementById("rfFill");
-  const rfBars = document.getElementById("rfBars");
-
-  // Build RF spectrum bars
-  if (rfBars) {
-    for (let b = 0; b < 14; b++) {
-      const span = document.createElement("span");
-      span.style.height = 20 + ((b * 37) % 60) + "%";
-      rfBars.appendChild(span);
-    }
-  }
-
-  if (!prefersReducedMotion) {
-    setInterval(() => {
-      // Acoustic ~ 38–58 dB
-      const db = 38 + Math.floor(Math.random() * 20);
-      if (dbVal) dbVal.textContent = db + " dB";
-      if (dbFill) dbFill.style.width = Math.round(((db - 30) / 40) * 100) + "%";
-
-      // RF presence ~ 2–6 devices
-      const devices = 2 + Math.floor(Math.random() * 5);
-      if (rfVal)
-        rfVal.textContent = devices + (devices === 1 ? " device" : " devices");
-      if (rfFill) rfFill.style.width = 12 + devices * 11 + "%";
-
-      // Spectrum bars
-      if (rfBars) {
-        Array.prototype.forEach.call(rfBars.children, (bar) => {
-          bar.style.height = 15 + Math.floor(Math.random() * 80) + "%";
-        });
-      }
-    }, 1400);
-  }
-
-  /* ---------------------------------------------------------
-     6. QUOTE FORM — validation, success state, mailto fallback
-     --------------------------------------------------------- */
+  /* Site assessment / pilot intake: validates locally and prepares an email. */
   const form = document.getElementById("quoteForm");
   const success = document.getElementById("formSuccess");
 
@@ -285,7 +174,7 @@
       company: form.querySelector("#company"),
       property: form.querySelector("#property"),
       email: form.querySelector("#email"),
-      message: form.querySelector("#message"),
+      concern: form.querySelector("#concern"),
     };
 
     const messages = {
@@ -293,7 +182,7 @@
       company: "Please enter your company.",
       property: "Please select a property type.",
       email: "Please enter a valid email address.",
-      message: "Please add a short message.",
+      concern: "Please tell us your primary security concern.",
     };
 
     const emailOk = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.trim());
@@ -327,23 +216,45 @@
       });
     });
 
+    const inquiry = form.querySelector("#inquiry");
+    const submitButton = form.querySelector('[type="submit"]');
+    const updateInquiry = () => {
+      submitButton.textContent = inquiry.value === "90-day pilot"
+        ? "Apply for a 90-Day Pilot" : "Request a Site Assessment";
+    };
+    inquiry.addEventListener("change", updateInquiry);
+    document.querySelectorAll("[data-inquiry]").forEach((link) => {
+      link.addEventListener("click", () => {
+        inquiry.value = link.dataset.inquiry;
+        updateInquiry();
+      });
+    });
+    form.addEventListener("input", () => { if (success) success.hidden = true; });
+    form.addEventListener("change", () => { if (success) success.hidden = true; });
+
     const buildMailto = () => {
-      const subject = encodeURIComponent(
-        "Quote request: " + (fields.property.value || "Property")
-      );
-      const body = encodeURIComponent(
-        "Name: " +
-          fields.name.value +
-          "\nCompany: " +
-          fields.company.value +
-          "\nProperty type: " +
-          fields.property.value +
-          "\nEmail: " +
-          fields.email.value +
-          "\n\n" +
-          fields.message.value
-      );
-      return "mailto:" + CONTACT_EMAIL + "?subject=" + subject + "&body=" + body;
+      const data = new FormData(form);
+      const labels = {
+        inquiry: "Request", name: "Name", company: "Company", email: "Email",
+        phone: "Phone", property: "Property type", size: "Approximate property size",
+        security: "Current security setup", concern: "Primary concern", message: "Message",
+      };
+      const body = Object.entries(labels)
+        .map(([key, label]) => label + ": " + (String(data.get(key) || "").trim() || "Not provided"))
+        .join("\n");
+      const subject = String(data.get("inquiry")) + ": " + fields.property.value;
+      return "mailto:" + CONTACT_EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+    };
+
+    const showStatus = (message) => {
+      if (!success) return;
+      success.textContent = message;
+      success.hidden = false;
+      success.scrollIntoView({ behavior: prefersReducedMotion ? "auto" : "smooth", block: "center" });
+    };
+    const openEmail = () => {
+      window.location.href = buildMailto();
+      showStatus("Your email draft is ready. Press Send in your email app to submit your request. If no app opens, email " + CONTACT_EMAIL + " directly. Your details are kept here until you leave or reload the page.");
     };
 
     form.addEventListener("submit", function (e) {
@@ -359,37 +270,23 @@
         return;
       }
 
-      const showSuccess = () => {
-        if (success) {
-          success.hidden = false;
-          success.scrollIntoView({ behavior: "smooth", block: "center" });
-        }
-        form.reset();
-      };
-
-      // ---- Real submission path -------------------------------------
-      // When ENDPOINT is set, POST the form via fetch. Otherwise we fall
-      // back to opening the visitor's email client (mailto:).
       if (ENDPOINT) {
-        const data = new FormData(form);
+        submitButton.disabled = true;
         fetch(ENDPOINT, {
           method: "POST",
-          body: data,
+          body: new FormData(form),
           headers: { Accept: "application/json" },
         })
           .then((res) => {
             if (!res.ok) throw new Error("Request failed");
-            showSuccess();
+            showStatus("Request received. Thank you for telling us about your property.");
+            form.reset();
+            updateInquiry();
           })
-          .catch(() => {
-            // Network/endpoint failure — fall back to mailto so nothing is lost.
-            window.location.href = buildMailto();
-            showSuccess();
-          });
+          .catch(openEmail)
+          .finally(() => { submitButton.disabled = false; });
       } else {
-        // No endpoint configured yet: mailto fallback.
-        window.location.href = buildMailto();
-        showSuccess();
+        openEmail();
       }
     });
   }

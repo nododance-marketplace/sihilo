@@ -1,7 +1,6 @@
 # Sihilo — Marketing Site
 
-Single-page, mobile-first landing site for **Sihilo** — autonomous security
-built on computer vision and robotics, Charlotte, NC.
+Single-page, mobile-first landing site for **Sihilo** — an early-stage physical-security intelligence platform focused on commercial properties in Charlotte, NC.
 
 > *Silent. Watching. Always.*
 
@@ -18,14 +17,14 @@ no dependencies. Deploy-ready for Netlify, Vercel, or GitHub Pages out of the bo
 ├── css/
 │   └── styles.css          # All styles — brand tokens, layout, responsive, motion
 ├── js/
-│   └── main.js             # Nav, scroll reveal, dashboard mockup, form validation
+│   └── main.js             # Nav, motion controls, assessment / pilot form validation
 ├── assets/
 │   ├── hero.mp4            # Hero background video (web-optimized, ~1 MB, muted/looping)
 │   ├── hero-poster.jpg     # Poster frame / video fallback
 │   ├── logo-mark.png       # Owl line-art mark (transparent) — nav
 │   ├── logo-full.png       # Owl + SIHILO wordmark (transparent) — footer
 │   ├── owl-art.jpg         # Cyberpunk owl render — "Why the Owl" section
-│   ├── drones.jpg          # Drone formation — "How It Works"
+│   ├── drones.jpg          # Unused drone formation asset — "How It Works"
 │   ├── og-image.jpg        # 1200×630 Open Graph / Twitter card image
 │   ├── favicon.ico         # Favicon (owl head)
 │   ├── favicon-16.png / favicon-32.png / favicon-512.png
@@ -96,7 +95,7 @@ npx serve .
 
 The form works immediately with a **`mailto:` fallback** — on submit it opens
 the visitor's email client pre-filled. To capture submissions properly, wire up
-an endpoint. Everything lives at the top of the form section in
+an endpoint. Everything lives in the form section in
 [`js/main.js`](js/main.js):
 
 ```js
@@ -123,7 +122,7 @@ Point `ENDPOINT` at any URL that accepts a `POST` with `FormData` and returns
    Netlify capture the native POST. (Formspree/Option A is simpler if you're not
    on Netlify.)
 
-Also update `CONTACT_EMAIL` so the `mailto:` fallback reaches a real inbox.
+The current recipient is `moisesjdelcastillo@gmail.com`. The form preserves entered details after opening the email draft and does not claim delivery. If an endpoint is enabled, update the visible form instructions to reflect direct submission.
 
 ---
 
@@ -149,3 +148,44 @@ All tokens are CSS variables at the top of [`css/styles.css`](css/styles.css).
   dashboard animations; shows representative static states instead.
 - Hero video is muted/looping with a poster frame and a JS fallback if it can't
   play. Below-the-fold images use `loading="lazy"`.
+
+
+## Homepage positioning and feature status
+
+The homepage leads with commercial property assessments and a proposed 90-day
+Charlotte pilot. It preserves the existing owl branding, typography, colors,
+hero media, and static architecture. Drones are one possible sensor, conditional
+on site configuration and operating authorization.
+
+Current website functionality: navigation, motion controls, intake validation,
+and email-draft preparation. No environment variables or secrets are required.
+There is no server-side form delivery, camera integration, authentication,
+event detection, storage system, or response dispatch in this repository.
+
+The dashboard is a static illustrative interface. Edge, Site Memory, privacy
+controls, natural-language search and Spatial Memory are explicitly labelled
+as concepts, under development, or roadmap/R&D. Retention labels are planned
+policy choices, not functioning controls. Pilot scope must be confirmed per site.
+
+## Validation and publishing
+
+There is no package.json, TypeScript, lint configuration, or compilation step.
+Vercel serves the existing HTML/CSS/JS directly. Do not add a framework or build
+pipeline just to publish copy changes.
+
+Before pushing main (which triggers Vercel production deployment):
+
+- Run `node --check js/main.js` and `git diff --check`.
+- Serve locally and inspect mobile and desktop layouts, internal links, metadata,
+  image loading, browser console, keyboard navigation and reduced motion.
+- Check required-field validation and both assessment/pilot inquiry paths.
+- Verify the email draft recipient and all intake fields without sending email.
+- Check that all feature claims retain the appropriate capability labels.
+
+Canonical, OpenGraph and sitemap URLs currently use the verified deployment
+origin https://sihilo.vercel.app/. Update all together if a custom domain is connected.
+
+Backend next steps: implement validated, rate-limited form delivery with a
+server-side email provider; then develop and verify the scoped sensor adapters,
+edge processing, authenticated dashboard, event review, retention and access
+controls before changing any feature availability claims.

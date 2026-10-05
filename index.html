@@ -4,27 +4,31 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Sihilo. We don't patrol. We watch. | Autonomous Security, Charlotte NC</title>
-  <meta name="description" content="Sihilo replaces the ten-minute drive-by with always-on autonomous drone patrol: night vision, computer-vision anomaly detection, and multi-sensor fusion, monitored on a real-time dashboard. Charlotte, NC." />
+  <title>Sihilo | AI Security Intelligence for Commercial Property</title>
+  <meta name="description" content="Sihilo is developing local-first security intelligence for commercial property. Explore camera and sensor monitoring pilots for dealerships, construction sites and industrial yards in Charlotte, NC." />
   <meta name="theme-color" content="#000000" />
   <meta name="author" content="Sihilo" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:site_name" content="Sihilo" />
-  <meta property="og:title" content="Sihilo. We don't patrol. We watch." />
-  <meta property="og:description" content="Always-on autonomous drone patrol with computer-vision anomaly detection and multi-sensor fusion. Real coverage, not drive-bys. Charlotte, NC." />
-  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:title" content="Sihilo | Security intelligence for commercial property" />
+  <meta property="og:description" content="Sihilo is developing local-first security intelligence for commercial property. Explore camera and sensor monitoring pilots for dealerships, construction sites and industrial yards in Charlotte, NC." />
+  <meta property="og:image" content="https://sihilo.vercel.app/assets/og-image.jpg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:url" content="https://sihilo.com/" />
+  <meta property="og:url" content="https://sihilo.vercel.app/" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Sihilo. We don't patrol. We watch." />
-  <meta name="twitter:description" content="Always-on autonomous drone patrol with computer-vision anomaly detection and multi-sensor fusion. Real coverage, not drive-bys." />
-  <meta name="twitter:image" content="assets/og-image.jpg" />
+  <meta name="twitter:title" content="Sihilo | Security intelligence for commercial property" />
+  <meta name="twitter:description" content="Sihilo is developing local-first security intelligence for commercial property. Explore camera and sensor monitoring pilots for dealerships, construction sites and industrial yards in Charlotte, NC." />
+  <meta name="twitter:image" content="https://sihilo.vercel.app/assets/og-image.jpg" />
 
+  <link rel="canonical" href="https://sihilo.vercel.app/" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Sihilo","url":"https://sihilo.vercel.app/","logo":"https://sihilo.vercel.app/assets/logo-full.png","email":"moisesjdelcastillo@gmail.com","description":"An early-stage physical-security intelligence platform focused on commercial property in Charlotte, NC."}
+  </script>
   <!-- Favicons -->
   <link rel="icon" href="assets/favicon.ico" sizes="any" />
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
@@ -39,9 +43,9 @@
   <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-  <a class="skip-link" href="#how">Skip to content</a>
+  <a class="skip-link" href="#top">Skip to content</a>
 
-  <!-- ============================ NAV ============================ -->
+  <!-- Homepage section -->
   <header class="nav" id="nav" data-state="top">
     <div class="container nav__inner">
       <a class="nav__brand" href="#top" aria-label="Sihilo home">
@@ -50,11 +54,11 @@
       </a>
 
       <nav class="nav__links" id="primary-nav" aria-label="Primary">
-        <a href="#problem">Problem</a>
+        <a href="#intelligence">Platform</a>
         <a href="#how">How It Works</a>
         <a href="#coverage">Coverage</a>
-        <a href="#investors">Investors</a>
-        <a class="btn btn--neon nav__cta" href="#contact">Request a Quote</a>
+        <a href="#pilot">Site Pilot</a>
+        <a class="btn btn--neon nav__cta" href="#contact">Request a Site Assessment</a>
       </nav>
 
       <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
@@ -63,15 +67,15 @@
     </div>
   </header>
 
-  <main id="top">
-    <!-- ============================ HERO ============================ -->
+  <main id="top" tabindex="-1">
+    <!-- Homepage section -->
     <section class="hero" id="hero">
       <div class="hero__media">
         <video
           class="hero__video"
           id="heroVideo"
           autoplay muted loop playsinline
-          preload="auto"
+          preload="metadata"
           poster="assets/hero-poster.jpg">
           <source src="assets/hero.mp4" type="video/mp4" />
         </video>
@@ -79,378 +83,270 @@
       </div>
 
       <div class="container hero__content reveal">
-        <p class="hero__eyebrow">Computer Vision &amp; Robotics · Charlotte, NC</p>
+        <p class="hero__eyebrow">Physical security intelligence &middot; Charlotte, NC</p>
         <h1 class="hero__title">We don't patrol.<br /><span class="accent">We watch.</span></h1>
-        <p class="hero__lockup">Silent. Watching. Always.</p>
-        <p class="hero__sub">Always-on autonomous coverage for high-value property. Night vision, computer-vision detection, and multi-sensor fusion, monitored in real time.</p>
+        <p class="hero__lockup">Continuous security intelligence<br />for high-value property.</p>
+        <p class="hero__sub">Sihilo is being built to connect cameras, sensors, thermal imaging and aerial verification into one intelligence layer. Detect unusual activity. Understand the context. Bring a human in when it matters.</p>
         <div class="hero__cta">
-          <a class="btn btn--neon" href="#contact">Request a Quote</a>
-          <a class="btn btn--ghost" href="#how">How It Works</a>
+          <a class="btn btn--neon" href="#contact">Request a Site Assessment</a>
+          <a class="btn btn--ghost" href="#how">See How Sihilo Works</a>
         </div>
+        <p class="hero__support">Designed for dealerships, construction sites, equipment yards and industrial properties.</p>
+        <p class="hero__availability">Early-stage platform &middot; Charlotte-area pilot partners wanted</p>
       </div>
-
+      <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false">Pause motion</button>
     </section>
 
-    <!-- ============================ PROBLEM ============================ -->
+    <!-- Homepage section -->
     <section class="section section--problem" id="problem">
       <div class="container">
         <div class="section__head reveal">
-          <p class="kicker">01 / The Problem</p>
-          <h2 class="section__title">The model has <span class="accent">quietly failed.</span></h2>
+          <p class="kicker">01 / Close the gaps</p>
+          <h2 class="section__title">Security shouldn't disappear<br />when the <span class="accent">patrol car leaves.</span></h2>
+          <p class="section__intro">A patrol can observe your property while it's there. Between visits, cameras record, alarms trigger, and separate systems leave people to piece together what happened. The gap is context.</p>
         </div>
-
-        <div class="problem__grid">
-          <p class="problem__lead reveal">Security has run on the same model for decades: a tired human, a car, a flashlight, and a clipboard. You're paying for the appearance of coverage, not coverage.</p>
-
-          <ul class="problem__list">
-            <li class="problem__item reveal">
-              <span class="problem__metric">$30-50</span>
-              <span class="problem__label">per stop, for a guard who isn't there the other 23 hours</span>
-            </li>
-            <li class="problem__item reveal">
-              <span class="problem__metric">~10 min</span>
-              <span class="problem__label">a drive-by glance, then gone. Blind the rest of the night</span>
-            </li>
-            <li class="problem__item reveal">
-              <span class="problem__metric">From memory</span>
-              <span class="problem__label">a thin report written after the fact, on outdated hardware</span>
-            </li>
-          </ul>
+        <div class="comparison reveal">
+          <div class="comparison__column">
+            <h3>Traditional coverage</h3>
+            <ol class="flow-list"><li>Scheduled patrol</li><li>Brief observation</li><li>Patrol leaves</li><li>Property waits for the next check</li></ol>
+          </div>
+          <div class="comparison__column comparison__column--sihilo">
+            <h3>The Sihilo approach <span class="status-label">Pilot design</span></h3>
+            <ol class="flow-list"><li>Sensors continuously observe</li><li>AI detects unusual activity</li><li>Additional sensors verify context</li><li>A human reviews meaningful events</li><li>Response when necessary</li></ol>
+          </div>
         </div>
+        <p class="section__footnote">Designed to help security teams focus their attention. Monitoring coverage and response procedures are defined for each pilot.</p>
       </div>
     </section>
 
-    <!-- ============================ HOW IT WORKS ============================ -->
+    <!-- Homepage section -->
     <section class="section section--how" id="how">
       <div class="container">
         <div class="section__head reveal">
-          <p class="kicker">02 / How It Works</p>
-          <h2 class="section__title">Coverage, not the <span class="accent">appearance of it.</span></h2>
-          <p class="section__intro">Four stages run continuously. The system does the watching; a human only enters when something is real.</p>
+          <p class="kicker">02 / How Sihilo works</p>
+          <h2 class="section__title">From scattered signals<br />to <span class="accent">a clear next step.</span></h2>
+          <p class="section__intro">Our proposed pilot workflow connects observation to human judgment. The sensors, detection rules and escalation plan are scoped around your property.</p>
         </div>
-
-        <figure class="how__banner reveal">
-          <img src="assets/drones.jpg" alt="A formation of autonomous patrol drones holding station against a dusk sky" loading="lazy" width="1280" height="340" />
-          <figcaption>American-made platforms, built for patrol, not the hobby shelf.</figcaption>
-        </figure>
-
+        <p class="process-line" aria-label="Observe, understand, verify, respond">Observe <span aria-hidden="true">&rarr;</span> Understand <span aria-hidden="true">&rarr;</span> Verify <span aria-hidden="true">&rarr;</span> Respond</p>
         <ol class="how__steps">
-          <li class="how__step reveal">
-            <span class="how__num">01</span>
-            <h3 class="how__title">Autonomous drone patrol</h3>
-            <p>Drones run set and randomized routes through the night on night vision, seeing clearly where legacy patrol goes blind.</p>
-          </li>
-          <li class="how__step reveal">
-            <span class="how__num">02</span>
-            <h3 class="how__title">Detection &amp; sensor fusion</h3>
-            <p>Computer vision flags anomalies and cross-checks them against acoustic, RF/Wi-Fi presence, and live camera feeds for full situational awareness.</p>
-          </li>
-          <li class="how__step reveal">
-            <span class="how__num">03</span>
-            <h3 class="how__title">Real-time dashboard</h3>
-            <p>Everything lands on one live dashboard that auto-flags anomalies the instant they appear. A view of your property you can pull up any time.</p>
-          </li>
-          <li class="how__step reveal">
-            <span class="how__num">04</span>
-            <h3 class="how__title">Verified escalation</h3>
-            <p>Only verified incidents reach a live human responder. No false alarms at 3 a.m., no noise. The system strikes only when it counts.</p>
-          </li>
+          <li class="how__step reveal"><span class="how__num">01</span><h3 class="how__title">Observe</h3><p>Start with compatible existing cameras and appropriate site sensors. Identify where additional viewpoints would close a coverage gap.</p></li>
+          <li class="how__step reveal"><span class="how__num">02</span><h3 class="how__title">Understand</h3><p>Develop local computer vision and sensor fusion to interpret movement, sound, thermal signatures and other available signals together.</p></li>
+          <li class="how__step reveal"><span class="how__num">03</span><h3 class="how__title">Verify</h3><p>Gather context from available cameras and sensors. Aerial verification adds a mobile viewpoint when site conditions, configuration and operating authorization allow.</p></li>
+          <li class="how__step reveal"><span class="how__num">04</span><h3 class="how__title">Escalate</h3><p>Surface meaningful events to a designated operator or customer with the context to decide what happens next, under an agreed response plan.</p></li>
         </ol>
+        <p class="section__footnote">Drone operations are deployed in accordance with applicable FAA operating requirements and site-specific authorizations.</p>
       </div>
     </section>
 
-    <!-- ============================ LIVE DASHBOARD MOCKUP ============================ -->
-    <section class="section section--dash" id="dashboard" aria-label="Live monitoring dashboard preview">
+    <section class="section section--intelligence" id="intelligence">
       <div class="container">
         <div class="section__head reveal">
-          <p class="kicker">Live Dashboard</p>
-          <h2 class="section__title">One screen. <span class="accent">The whole property.</span></h2>
+          <p class="kicker">03 / The intelligence layer</p>
+          <h2 class="section__title">One intelligence layer.<br /><span class="accent">Every sensor.</span></h2>
+          <p class="section__intro">Your property has thousands of signals. Sihilo is designed to turn them into one picture. The architecture is hardware-flexible: a drone is one mobile sensor within a broader system.</p>
         </div>
+        <div class="architecture reveal" aria-label="Proposed architecture: cameras, thermal, drones, acoustic, RF and access systems feed Sihilo intelligence, supporting anomaly detection, site memory, verification and human response.">
+          <ul class="architecture__inputs"><li>Fixed cameras</li><li>Thermal</li><li>Drones</li><li>Acoustic</li><li>RF / network</li><li>Access systems</li></ul>
+          <div class="architecture__core"><img src="assets/logo-mark.png" alt="" width="46" height="40" /><strong>SIHILO<br />INTELLIGENCE</strong><span>Proposed architecture</span></div>
+          <ul class="architecture__outputs"><li>Anomaly detection</li><li>Site memory</li><li>Verification</li><li>Human response</li></ul>
+        </div>
+        <div class="capability-grid">
+          <article class="info-card"><span class="status-label">Current offering</span><h3>Start with a site assessment</h3><p>Tell us about your property, existing cameras and security concerns. Together, we can identify a practical pilot scope.</p></article>
+          <article class="info-card"><span class="status-label">Proposed pilot scope</span><h3>Confirm fit before deployment</h3><p>Camera compatibility, local processing, event review and sensor options must be assessed and agreed for each site. No universal camera integration is promised.</p></article>
+          <article class="info-card"><span class="status-label">Roadmap / under development</span><h3>Build toward a connected picture</h3><p>Broader thermal, acoustic, RF/network and access-system fusion; aerial workflows; site memory and spatial intelligence. Listed inputs are design targets, not confirmed integrations.</p></article>
+        </div>
+        <p class="section__footnote">Already have cameras? Start there. An assessment determines what can be reused, what needs an adapter and where new hardware may be needed.</p>
+      </div>
+    </section>
 
-        <div class="dash reveal" role="img" aria-label="Simulated real-time monitoring dashboard showing camera feeds, an anomaly alert feed, and acoustic and RF sensor readouts. For illustration only.">
-          <!-- Status bar -->
+    <!-- Homepage section -->
+    <section class="section section--dash" id="dashboard" aria-labelledby="dashboard-title">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="kicker">Interface concept</p>
+          <h2 class="section__title" id="dashboard-title">Multiple sensors.<br /><span class="accent">One incident.</span></h2>
+          <p class="section__intro">A camera sees movement. Thermal adds context. The proposed dashboard brings those signals together for human review.</p>
+        </div>
+        <p class="dash__disclosure">Illustrative interface &mdash; no live customer data. All events, sensor states and confidence values below are examples.</p>
+        <div class="dash reveal">
           <div class="dash__bar">
-            <div class="dash__bar-left">
-              <span class="dash__dot" aria-hidden="true"></span>
-              <span class="dash__sitename">SIHILO · SITE-04 / CHARLOTTE</span>
-            </div>
-            <div class="dash__status" id="dashStatus" data-state="clear">
-              <span class="dash__status-text">ALL CLEAR</span>
-            </div>
-            <div class="dash__clock"><span id="dashClock">00:00:00</span> EST</div>
+            <span class="dash__sitename">SIHILO / EXAMPLE CHARLOTTE SITE</span>
+            <div class="dash__status" data-state="incident"><span class="dash__status-text">SITE STATUS: REVIEW REQUIRED</span></div>
+            <span class="dash__clock">02:37:24 / EXAMPLE</span>
           </div>
-
           <div class="dash__body">
-            <!-- Camera grid -->
-            <div class="dash__feeds" aria-hidden="true">
-              <div class="feed" data-cam="CAM-01">
-                <div class="feed__scan"></div>
-                <div class="feed__meta"><span class="feed__rec">REC</span><span>CAM-01 · LOT A</span></div>
+            <div class="dash__visuals">
+              <h3 class="rail__title">Camera feeds / illustrative</h3>
+              <div class="dash__feeds" aria-label="Illustrative camera viewpoints, not live footage">
+                <div class="feed feed--lot"><span class="feed__scene">LOT A</span><div class="feed__scan" aria-hidden="true"></div><div class="feed__meta">Camera 01 &middot; Inventory</div></div>
+                <div class="feed feed--alert"><span class="feed__scene">EAST PERIMETER</span><div class="feed__box" aria-hidden="true"></div><div class="feed__meta">Camera 03 &middot; Person detected</div></div>
               </div>
-              <div class="feed" data-cam="CAM-02">
-                <div class="feed__scan"></div>
-                <div class="feed__meta"><span class="feed__rec">REC</span><span>CAM-02 · DOCK</span></div>
-              </div>
-              <div class="feed feed--alert" id="feedAlert" data-cam="CAM-03">
-                <div class="feed__scan"></div>
-                <div class="feed__box"></div>
-                <div class="feed__meta"><span class="feed__rec">REC</span><span>CAM-03 · PERIM E</span></div>
-              </div>
-              <div class="feed" data-cam="CAM-04">
-                <div class="feed__scan"></div>
-                <div class="feed__meta"><span class="feed__rec">REC</span><span>CAM-04 · ROOF</span></div>
-              </div>
+              <div class="site-map"><h3 class="rail__title">Site map</h3><div class="site-map__layout"><span>Inventory / lot A</span><span>Building / loading</span><span>Gate 3</span><span class="site-map__event">Incident 014<br />East perimeter</span></div></div>
             </div>
-
-            <!-- Side rail: alerts + sensors -->
-            <aside class="dash__rail" aria-hidden="true">
+            <aside class="dash__rail" aria-label="Example incident details">
               <div class="rail__block">
-                <h4 class="rail__title">Anomaly Feed</h4>
-                <ul class="rail__alerts" id="alertFeed"></ul>
+                <h3 class="rail__title">Anomaly timeline / Incident 014</h3>
+                <ol class="rail__alerts">
+                  <li class="rail__alert"><div class="rail__alert-top"><span class="rail__alert-tag">Person detected</span><time>02:37:14</time></div><span>East perimeter &middot; Camera 03<br />Confidence: 94% (example)</span></li>
+                  <li class="rail__alert"><div class="rail__alert-top"><span class="rail__alert-tag">Thermal confirmation</span><time>02:37:18</time></div><span>1 heat signature &middot; Same location</span></li>
+                  <li class="rail__alert is-incident"><div class="rail__alert-top"><span class="rail__alert-tag">Event created</span><time>02:37:24</time></div><span>Signals linked to Incident 014.<br />Awaiting human verification.</span></li>
+                </ol>
               </div>
-
-              <div class="rail__block rail__sensors">
-                <h4 class="rail__title">Sensors</h4>
-                <div class="sensor">
-                  <div class="sensor__head"><span>ACOUSTIC</span><span class="sensor__val" id="dbVal">42 dB</span></div>
-                  <div class="sensor__meter"><span class="sensor__fill" id="dbFill" style="width:38%"></span></div>
-                </div>
-                <div class="sensor">
-                  <div class="sensor__head"><span>RF / WI-FI PRESENCE</span><span class="sensor__val" id="rfVal">3 devices</span></div>
-                  <div class="sensor__meter"><span class="sensor__fill" id="rfFill" style="width:24%"></span></div>
-                </div>
-                <div class="sensor sensor--bars">
-                  <div class="sensor__head"><span>RF SPECTRUM</span><span class="sensor__val">2.4 / 5 GHz</span></div>
-                  <div class="bars" id="rfBars" aria-hidden="true"></div>
-                </div>
-              </div>
+              <div class="rail__block rail__sensors"><h3 class="rail__title">Sensor status / example</h3><p class="sensor-summary">Cameras <span>Online</span><br />Thermal <span>Online</span><br />Aerial <span>Not deployed</span></p></div>
             </aside>
           </div>
+          <div class="dash__summary"><div><h3 class="rail__title">Recent events</h3><p>02:12 &middot; Gate 3 &middot; Vehicle departure<br />02:37 &middot; East perimeter &middot; Review required</p></div><div><h3 class="rail__title">Storage / Site Memory concept</h3><p>Incident 014 &middot; Preserve source clips<br />Routine footage &middot; Follow site retention policy</p></div></div>
         </div>
-        <p class="dash__note">Illustrative preview. No live data is shown.</p>
+        <p class="dash__note">The interface is a design preview. It does not connect to cameras, detect events or dispatch a response.</p>
       </div>
     </section>
 
-    <!-- ============================ WHY THE OWL ============================ -->
+    <section class="section section--edge" id="edge">
+      <div class="container feature-split">
+        <div class="reveal"><p class="kicker">Sihilo Edge / product concept</p><h2 class="section__title">Understand more.<br /><span class="accent">Upload less.</span></h2><p class="section__intro">Your property shouldn't need to stream every second of every camera to the cloud just to understand what's happening.</p></div>
+        <div class="info-card reveal"><span class="status-label">Under development</span><h3>Intelligence close to the source</h3><p>The local-first design places computer vision on an edge device at your property, with important events and metadata surfaced through a dashboard.</p><p>The aim: lower latency, less bandwidth and storage use, greater privacy, and more customer control over sensitive footage.</p><p class="section__footnote">Hardware and connectivity requirements depend on the pilot. Fully offline operation is not currently offered or promised.</p></div>
+      </div>
+    </section>
+
+    <section class="section" id="memory">
+      <div class="container">
+        <div class="section__head reveal"><p class="kicker">Sihilo Site Memory / roadmap</p><h2 class="section__title">See more.<br /><span class="accent">Store less.</span></h2><p class="section__intro">A useful record should make important events easier to find. Site Memory is planned to distinguish incidents from repetitive background footage, according to your retention policy.</p></div>
+        <div class="memory-grid">
+          <article class="info-card"><span class="how__num">01 / RECENT FOOTAGE</span><h3>Keep the detail</h3><p>Retain high-quality recent footage within the configured storage window.</p></article>
+          <article class="info-card"><span class="how__num">02 / INCIDENTS</span><h3>Preserve the context</h3><p>Index relevant clips and preserve them at high quality under your incident retention policy.</p></article>
+          <article class="info-card"><span class="how__num">03 / ROUTINE FOOTAGE</span><h3>Reduce repetition</h3><p>Compress or lower storage priority as permitted by customer policy.</p></article>
+          <article class="info-card"><span class="how__num">04 / EVENT METADATA</span><h3>Find the useful moments</h3><p>Retain searchable event records for the agreed period, with access controls.</p></article>
+        </div>
+        <div class="memory-policy"><div><h3>Customer-configurable retention</h3><p>Planned policy options, subject to storage capacity and pilot scope.</p></div><ul class="retention-options" aria-label="Planned retention options"><li>7 days</li><li>30 days</li><li>90 days</li><li>Custom</li></ul></div>
+        <details class="detail-panel"><summary>What could Site Memory help you find?</summary><p>&ldquo;What happened near Gate 3 last Tuesday night?&rdquo; &ldquo;Show every after-hours vehicle event this month.&rdquo; &ldquo;When was this equipment last observed?&rdquo;</p><p>These are design goals. Natural-language video search and equipment tracking are roadmap concepts, not available product features.</p></details>
+      </div>
+    </section>
+
+    <!-- Homepage section -->
     <section class="section section--owl" id="owl">
       <div class="container owl__grid">
-        <figure class="owl__art reveal">
-          <img src="assets/owl-art.jpg" alt="Sihilo's cybernetic owl: the operating principle of stealth, vigilance, and precision" loading="lazy" width="760" height="1357" />
-        </figure>
-
-        <div class="owl__copy">
-          <div class="section__head reveal">
-            <p class="kicker">03 / Why the Owl</p>
-            <h2 class="section__title">The owl, <span class="accent">literally.</span></h2>
-            <p class="section__intro">The owl isn't decoration. Every trait is a literal description of what the system does.</p>
-          </div>
-
-          <ul class="owl__traits">
-            <li class="owl__trait reveal">
-              <h3>Sees in the dark</h3>
-              <p>Night vision and computer-vision detection that work in total darkness, where legacy patrol goes blind.</p>
-            </li>
-            <li class="owl__trait reveal">
-              <h3>Moves unnoticed</h3>
-              <p>Autonomous drones that operate without being noticed. Presence felt only when it needs to be.</p>
-            </li>
-            <li class="owl__trait reveal">
-              <h3>Misses nothing</h3>
-              <p>Near-360° awareness through multi-sensor fusion: acoustic, RF/Wi-Fi, and live camera.</p>
-            </li>
-            <li class="owl__trait reveal">
-              <h3>Strikes only when it counts</h3>
-              <p>The patient predator. Flags anomalies automatically; escalates only verified incidents to a human.</p>
-            </li>
-          </ul>
+        <figure class="owl__art reveal"><img src="assets/owl-art.jpg" alt="An illuminated owl, the inspiration for Sihilo's quiet observation and awareness" loading="lazy" width="760" height="1357" /></figure>
+        <div class="owl__copy"><div class="section__head reveal"><p class="kicker">Our operating principle</p><h2 class="section__title">Watch patiently.<br /><span class="accent">Act with context.</span></h2><p class="section__intro">The owl is the operating principle: see in darkness, listen, understand the environment and move when something needs attention.</p></div>
+          <ul class="owl__traits"><li class="owl__trait reveal"><h3>Observe beyond one viewpoint</h3><p>Design around complementary sensors and the actual conditions on your site.</p></li><li class="owl__trait reveal"><h3>Understand before escalating</h3><p>Gather context so the person reviewing an event has a clearer picture.</p></li><li class="owl__trait reveal"><h3>Keep people in the decision</h3><p>Support operators with useful information and an agreed response plan.</p></li></ul>
         </div>
       </div>
     </section>
 
-    <!-- ============================ WHO WE PROTECT ============================ -->
+    <!-- Homepage section -->
     <section class="section section--coverage" id="coverage">
-      <div class="container">
-        <div class="section__head reveal">
-          <p class="kicker">04 / Who We Protect</p>
-          <h2 class="section__title">Built for high-value <span class="accent">property.</span></h2>
-          <p class="section__intro">High-value commercial sites around Charlotte, where a blind spot is expensive.</p>
-        </div>
-
+      <div class="container"><div class="section__head reveal"><p class="kicker">Designed around your property</p><h2 class="section__title">High-value assets.<br /><span class="accent">Real-world blind spots.</span></h2><p class="section__intro">Initial pilot focus: commercial properties in Charlotte, NC and the surrounding area.</p></div>
         <ul class="coverage__grid">
-          <li class="coverage__card reveal">
-            <span class="coverage__idx">01</span>
-            <h3>Hotels</h3>
-            <p>Guests, parking, and perimeter watched through the night without a uniform in every corridor.</p>
-          </li>
-          <li class="coverage__card reveal">
-            <span class="coverage__idx">02</span>
-            <h3>Dealerships</h3>
-            <p>Open lots full of inventory. The exact target a ten-minute drive-by was never going to cover.</p>
-          </li>
-          <li class="coverage__card reveal">
-            <span class="coverage__idx">03</span>
-            <h3>Corporate Campuses</h3>
-            <p>Large footprints, multiple buildings, after-hours quiet. Full situational awareness on one dashboard.</p>
-          </li>
-          <li class="coverage__card reveal">
-            <span class="coverage__idx">04</span>
-            <h3>Construction Sites</h3>
-            <p>Equipment, materials, and changing layouts protected on platforms that adapt route by route.</p>
-          </li>
+          <li class="coverage__card reveal"><span class="coverage__idx">01</span><h3>Auto dealerships</h3><p>Valuable vehicles, large outdoor inventories, multiple access points and long overnight periods.</p></li>
+          <li class="coverage__card reveal"><span class="coverage__idx">02</span><h3>Construction sites</h3><p>Changing layouts, materials, equipment and temporary perimeters make static security difficult.</p></li>
+          <li class="coverage__card reveal"><span class="coverage__idx">03</span><h3>Equipment &amp; storage yards</h3><p>High-value machinery and vehicles spread across outdoor areas, often beyond a single camera's view.</p></li>
+          <li class="coverage__card reveal"><span class="coverage__idx">04</span><h3>Industrial / logistics</h3><p>Large footprints, loading areas, gates and after-hours activity create more signals than a person can watch at once.</p></li>
         </ul>
       </div>
     </section>
 
-    <!-- ============================ LEGACY vs SIHILO ============================ -->
-    <section class="section section--vs" id="compare">
-      <div class="container">
-        <div class="section__head reveal">
-          <p class="kicker">The Difference</p>
-          <h2 class="section__title">Legacy patrol <span class="muted-accent">vs</span> <span class="accent">Sihilo.</span></h2>
-        </div>
-
-        <div class="vs reveal">
-          <div class="vs__row vs__row--head">
-            <span class="vs__legacy">Legacy patrol</span>
-            <span class="vs__sihilo">Sihilo</span>
-          </div>
-          <div class="vs__row">
-            <span class="vs__legacy"><s>Ten-minute drive-by</s></span>
-            <span class="vs__sihilo">Always-on autonomous coverage</span>
-          </div>
-          <div class="vs__row">
-            <span class="vs__legacy"><s>A guard glancing around</s></span>
-            <span class="vs__sihilo">Computer-vision detection &amp; sensor fusion</span>
-          </div>
-          <div class="vs__row">
-            <span class="vs__legacy"><s>A report written from memory</s></span>
-            <span class="vs__sihilo">A live dashboard you can pull up any time</span>
-          </div>
-          <div class="vs__row">
-            <span class="vs__legacy"><s>Blind in the dark</s></span>
-            <span class="vs__sihilo">Night vision that misses nothing</span>
-          </div>
-        </div>
+    <!-- Homepage section -->
+    <section class="section section--privacy" id="privacy">
+      <div class="container feature-split">
+        <div class="reveal"><p class="kicker">Privacy by design</p><h2 class="section__title">Built for security<br /><span class="accent">without unnecessary surveillance.</span></h2><p class="section__intro">Define what needs watching, who can access it and how long to keep it. Those decisions belong in the site plan from the start.</p></div>
+        <div class="info-card reveal"><span class="status-label">Planned controls</span><ul class="control-list"><li>Privacy zones and property-boundary awareness</li><li>Customer-controlled retention</li><li>Role-based access and audit logs</li><li>Local processing where practical</li><li>Masking / redaction where configured</li></ul><p>These controls are design requirements under development. Availability and configuration must be confirmed before any pilot deployment.</p></div>
       </div>
     </section>
 
-    <!-- ============================ INVESTORS ============================ -->
-    <section class="section section--investors" id="investors">
+    <section class="section section--pilot" id="pilot">
       <div class="container">
-        <div class="section__head reveal">
-          <p class="kicker kicker--neon">For Investors</p>
-          <h2 class="section__title">A platform, <span class="accent">not a staffing company.</span></h2>
-          <p class="section__intro">Patrol contracts fund and validate proprietary software in an industry still running on manual labour.</p>
-        </div>
-
-        <ul class="invest__stats">
-          <li class="invest__stat reveal">
-            <span class="invest__num">$49.8B</span>
-            <span class="invest__cap">US security industry, 2025</span>
-          </li>
-          <li class="invest__stat reveal">
-            <span class="invest__num">1.2M+</span>
-            <span class="invest__cap">Guards still on manual patrol</span>
-          </li>
-          <li class="invest__stat reveal">
-            <span class="invest__num">24/7</span>
-            <span class="invest__cap">Real coverage, not drive-bys</span>
-          </li>
-        </ul>
-
-        <div class="invest__points">
-          <div class="invest__point reveal">
-            <h3>Capital-efficient by design</h3>
-            <p>Revenue from contract one funds the team and product before any outside money is needed. Land a contract, reinvest the majority into product, expand on the case study.</p>
-          </div>
-          <div class="invest__point reveal">
-            <h3>Platform first</h3>
-            <p>We build the software and sensor systems; autonomous security services are the product that proves them. The patrol contract is the wedge, not the ceiling.</p>
-          </div>
-          <div class="invest__point reveal">
-            <h3>A clear roadmap</h3>
-            <p>From autonomous patrol toward drone-versus-drone defense and AI-driven digital security. A durable position as the threat landscape moves.</p>
-          </div>
-        </div>
-
-        <div class="invest__cta reveal">
-          <a class="btn btn--ghost" href="#contact">Talk to us about Sihilo</a>
-        </div>
+        <div class="section__head reveal"><p class="kicker kicker--neon">Sihilo 90-day pilot</p><h2 class="section__title">Start with <span class="accent">one property.</span></h2><p class="section__intro">Pilot partners wanted in Charlotte. We're selecting a small number of commercial properties to help shape early deployments. Start with a site assessment and a clear, agreed scope.</p></div>
+        <ol class="pilot-steps"><li><span>01</span>Assess the property</li><li><span>02</span>Identify blind spots</li><li><span>03</span>Connect or deploy appropriate sensors</li><li><span>04</span>Configure monitoring</li><li><span>05</span>Measure real-world performance</li><li><span>06</span>Deliver a coverage report</li></ol>
+        <div class="pilot-outcome"><div><h3>Agree on what success means</h3><p>Potential measures include monitoring hours, events detected and reviewed, false-positive rate, verification and response time, coverage gaps and operational observations. Metrics and reporting depend on the agreed deployment.</p></div><a class="btn btn--neon" href="#contact" data-inquiry="90-day pilot">Apply for a 90-Day Pilot</a></div>
+        <p class="section__footnote">Pilot timing, capability, responsibilities and commercial terms are agreed after assessment. Applying does not commit you to a deployment.</p>
       </div>
     </section>
 
-    <!-- ============================ CONTACT / QUOTE ============================ -->
+    <!-- Homepage section -->
+    <section class="section section--roadmap" id="roadmap">
+      <div class="container">
+        <div class="section__head reveal"><p class="kicker">Development roadmap / not a release commitment</p><h2 class="section__title">A clearer picture.<br /><span class="accent">Over time.</span></h2><p class="section__intro">Our direction stays focused on commercial security. These phases describe planned development, not capabilities already deployed.</p></div>
+        <ol class="roadmap-list"><li><span>Phase 1</span><h3>Security intelligence &amp; sensor fusion</h3></li><li><span>Phase 2</span><h3>Aerial verification &amp; deeper automation</h3></li><li><span>Phase 3</span><h3>Site Memory &amp; advanced anomaly detection</h3></li><li><span>Phase 4</span><h3>Spatial intelligence / 3D site memory</h3></li></ol>
+        <details class="detail-panel"><summary>Sihilo Spatial Memory: your property, reconstructed in 3D</summary><p><strong>R&amp;D concept.</strong> Periodic aerial or site scans could create a navigable spatial record. Future versions could compare captures over time to help an operator understand how the site changes.</p><div class="capability-grid"><div><h3>Construction</h3><p>Progress records, material movement and equipment location context.</p></div><div><h3>Dealerships</h3><p>Lot configuration, inventory location context and perimeter visualization.</p></div><div><h3>Industrial yards</h3><p>Equipment placement, blocked routes, spatial changes and incident reconstruction.</p></div></div><p>Technical exploration includes Gaussian splatting for digital site reconstruction. Automated change detection and accuracy remain unvalidated; no production capability is claimed.</p></details>
+      </div>
+    </section>
+
+    <!-- Homepage section -->
     <section class="section section--contact" id="contact">
       <div class="container contact__grid">
         <div class="contact__intro reveal">
-          <p class="kicker kicker--neon">Request a Quote</p>
+          <p class="kicker kicker--neon">Request a Site Assessment</p>
           <h2 class="section__title">Tell us about <span class="accent">the property.</span></h2>
-          <p class="section__intro">A few details and we'll come back with what coverage looks like for your site. No badge, no fatigue, no blind spots.</p>
-          <p class="contact__meta">Sihilo · Charlotte, NC</p>
+          <p class="section__intro">Tell us what you need to protect, what you already use and where you see gaps. We can discuss fit for a site assessment or a 90-day pilot.</p>
+          <p class="contact__meta">Sihilo · Charlotte, NC</p><p class="contact__email">Prefer email? <a href="mailto:moisesjdelcastillo@gmail.com">moisesjdelcastillo@gmail.com</a></p>
         </div>
 
-        <form class="form reveal" id="quoteForm" novalidate>
+        <form class="form reveal" id="quoteForm" novalidate aria-describedby="formNote">
+          <div class="field"><label for="inquiry">I'm interested in</label><select id="inquiry" name="inquiry"><option value="Site assessment">A site assessment</option><option value="90-day pilot">A 90-day pilot</option></select></div>
           <div class="field">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" autocomplete="name" required aria-required="true" />
-            <span class="field__error" data-for="name" role="alert"></span>
+            <input type="text" id="name" name="name" aria-describedby="name-error" autocomplete="name" required aria-required="true" />
+            <span class="field__error" id="name-error" data-for="name" role="alert"></span>
           </div>
 
           <div class="field">
             <label for="company">Company</label>
-            <input type="text" id="company" name="company" autocomplete="organization" required aria-required="true" />
-            <span class="field__error" data-for="company" role="alert"></span>
+            <input type="text" id="company" name="company" aria-describedby="company-error" autocomplete="organization" required aria-required="true" />
+            <span class="field__error" id="company-error" data-for="company" role="alert"></span>
           </div>
 
           <div class="field">
             <label for="property">Property type</label>
-            <select id="property" name="property" required aria-required="true">
-              <option value="" selected disabled>Select one…</option>
-              <option value="Hotel">Hotel</option>
-              <option value="Dealership">Dealership</option>
-              <option value="Corporate Campus">Corporate Campus</option>
-              <option value="Construction">Construction</option>
-              <option value="Other">Other</option>
+            <select id="property" name="property" required aria-required="true" aria-describedby="property-error">
+              <option value="" selected disabled>Select one&hellip;</option>
+              <option>Auto Dealership</option><option>Construction Site</option><option>Equipment / Storage Yard</option><option>Industrial / Logistics</option><option>Other</option>
             </select>
-            <span class="field__error" data-for="property" role="alert"></span>
+            <span class="field__error" id="property-error" data-for="property" role="alert"></span>
           </div>
 
           <div class="field">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" autocomplete="email" required aria-required="true" />
-            <span class="field__error" data-for="email" role="alert"></span>
+            <input type="email" id="email" name="email" aria-describedby="email-error" autocomplete="email" required aria-required="true" />
+            <span class="field__error" id="email-error" data-for="email" role="alert"></span>
           </div>
 
+          <div class="field"><label for="phone">Phone (optional)</label><input type="tel" id="phone" name="phone" autocomplete="tel" /></div>
+          <div class="field"><label for="size">Approximate property size (optional)</label><input type="text" id="size" name="size" placeholder="e.g. 5 acres or 40,000 sq ft" /></div>
+          <div class="field"><label for="security">Current security setup (optional)</label><input type="text" id="security" name="security" placeholder="Cameras, alarms, patrol, or none" /></div>
+          <div class="field"><label for="concern">Primary concern</label><input type="text" id="concern" name="concern" required aria-required="true" aria-describedby="concern-error" placeholder="e.g. after-hours access or equipment theft" /><span class="field__error" id="concern-error" data-for="concern" role="alert"></span></div>
           <div class="field">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="4" required aria-required="true"></textarea>
+            <label for="message">Message (optional)</label>
+            <textarea id="message" name="message" rows="4"></textarea>
             <span class="field__error" data-for="message" role="alert"></span>
           </div>
 
-          <button type="submit" class="btn btn--neon form__submit">Request a Quote</button>
+          <p class="form__note" id="formNote">This form prepares an email to moisesjdelcastillo@gmail.com. Review it and press Send in your email app. Please leave out sensitive footage or access credentials.</p>
+          <noscript><p class="form__note">Email us directly at <a href="mailto:moisesjdelcastillo@gmail.com">moisesjdelcastillo@gmail.com</a> to request an assessment.</p></noscript>
+          <button type="submit" class="btn btn--neon form__submit">Request a Site Assessment</button>
 
           <p class="form__success" id="formSuccess" role="status" hidden>
-            Request received. We'll be in touch shortly. Opening your email client as a backup.
+            Your email draft is ready. Press Send in your email app to submit your request.
           </p>
         </form>
       </div>
     </section>
   </main>
 
-  <!-- ============================ FOOTER ============================ -->
+  <!-- Homepage section -->
   <footer class="footer">
     <div class="container footer__inner">
       <div class="footer__brand">
         <img class="footer__logo" src="assets/logo-full.png" alt="Sihilo" width="136" height="150" loading="lazy" />
-        <p class="footer__tag">No badge. No fatigue. No blind spots.</p>
+        <p class="footer__tag">The intelligence layer for physical security.</p>
       </div>
 
       <nav class="footer__nav" aria-label="Footer">
-        <a href="#problem">Problem</a>
+        <a href="#intelligence">Platform</a>
         <a href="#how">How It Works</a>
         <a href="#coverage">Coverage</a>
-        <a href="#investors">Investors</a>
-        <a href="#contact">Request a Quote</a>
+        <a href="#pilot">Site Pilot</a>
+        <a href="#roadmap">Roadmap</a>
+        <a href="#privacy">Privacy by Design</a>
+        <a href="#contact">Request a Site Assessment</a>
       </nav>
 
       <div class="footer__meta">
