@@ -34,7 +34,7 @@ Runs ESLint, HTML validation, TypeScript checking of the existing JavaScript thr
 - `css/styles.css`: existing brand tokens, layout and motion styles.
 - `css/photography.css`: photo crops, image panels and responsive placement.
 - `js/main.js`: navigation, motion controls and assessment/pilot email form.
-- `assets/`: existing Sihilo owl marks, art, favicons and social image. Old hero video/poster retained locally but unused by the homepage/build.
+- `assets/`: existing Sihilo owl marks, art, favicons and social image. The original drone-to-owl hero video and poster are used by the homepage/build.
 - `public/images/skydio/`: full-resolution originals and WebP/AVIF derivatives, organized by subject.
 - `public/images/skydio/image-manifest.json`: source, dimensions, hashes, permission status and placement.
 - `docs/skydio/contact-sheet.html`: clickable candidate library; open directly in a browser.
@@ -106,7 +106,7 @@ All tokens are CSS variables at the top of [`css/styles.css`](css/styles.css).
   keyboard-navigable nav + form, visible focus rings.
 - Respects `prefers-reduced-motion`: disables video autoplay, scroll reveals, and
   dashboard animations; shows representative static states instead.
-- The photographic hero loads eagerly with high priority. Below-the-fold images use `loading="lazy"`, explicit dimensions, AVIF/WebP sources and responsive sizes.
+- The original hero video autoplays muted, with a poster and reduced-motion fallback. Below-the-fold images use `loading="lazy"`, explicit dimensions, AVIF/WebP sources and responsive sizes.
 
 
 ## Homepage positioning and feature status

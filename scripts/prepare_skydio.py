@@ -90,7 +90,7 @@ for item in assets:
         (ROOT/item['filename']).unlink()
     else: unique[item['sha256']]=item
 assets=list(unique.values())
-integrated = {'005','003','009','014','018','045','050','051','052','076'}
+integrated = {'003','009','014','018','045','050','051','052','076'}
 for item in assets:
     im = Image.open(ROOT/item['filename']).convert('RGB')
     selected = item['id'] in integrated

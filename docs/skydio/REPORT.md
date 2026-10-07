@@ -81,3 +81,9 @@ The extraction scripts use Python with `requests`, `beautifulsoup4`, and Pillow 
 ## Publication follow-up
 
 Removed manufacturer references from all visible homepage copy and image alt text at the user?s request. Internal source URLs, filenames and the permission manifest retain provenance. Browser tests now explicitly verify that visible text and image alt text contain no manufacturer reference.
+
+## Hero video restoration
+
+At the user's request, the homepage now uses the original `assets/hero.mp4` drone-to-owl animation and `assets/hero-poster.jpg` fallback. The original hero overlay is restored; other homepage sections retain their photography. The commercial-campus hero photograph remains in the candidate library but is no longer integrated. Nine photographs are currently placed on the page.
+
+The build now packages MP4 files and the local server serves the correct video MIME type. Browser checks cover reduced-motion pause, normal autoplay, video decoding and pause/resume controls. Current production packaging contains 68 files totaling approximately 2.72 MiB. Prior photographic-hero screenshots and metrics above describe the initial integration.

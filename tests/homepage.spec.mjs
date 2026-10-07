@@ -26,7 +26,7 @@ test('photography, responsive layout, accessibility and conversion paths', async
   }
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
   const images = await page.locator('picture img').evaluateAll(nodes => nodes.map(el => ({ src: el.currentSrc, width: el.naturalWidth, renderedWidth: Math.round(el.getBoundingClientRect().width), loading: el.loading })));
-  expect(images).toHaveLength(10);
+  expect(images).toHaveLength(9);
   expect(images.every(i => i.src.includes('/images/skydio/'))).toBeTruthy();
   const accessibility = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
   expect(accessibility.violations).toEqual([]);
@@ -50,6 +50,17 @@ test('photography, responsive layout, accessibility and conversion paths', async
   await expect(page.locator('#name')).toHaveAttribute('aria-invalid','true');
   const metrics = await page.evaluate(() => ({ layoutShift: window.__layoutShift, imageBytes: performance.getEntriesByType('resource').filter(r => /\.(avif|webp)/.test(r.name)).reduce((sum,r) => sum+r.encodedBodySize,0) }));
   expect(metrics.layoutShift).toBeLessThan(0.1);
+  expect(failures).toEqual([]);
+  await expect(page.locator('#heroVideo')).toHaveJSProperty('paused', true);
+  await page.emulateMedia({ reducedMotion: 'no-preference' });
+  await page.goto('/');
+  const video = page.locator('#heroVideo');
+  await expect(video).toHaveJSProperty('paused', false);
+  await expect.poll(() => video.evaluate(el => el.readyState)).toBeGreaterThanOrEqual(2);
+  await page.locator('#motionToggle').click();
+  await expect(video).toHaveJSProperty('paused', true);
+  await page.locator('#motionToggle').click();
+  await expect(video).toHaveJSProperty('paused', false);
   expect(failures).toEqual([]);
   await writeFile(`docs/skydio/${testInfo.project.name}-metrics.json`, JSON.stringify({ ...metrics, images, errors: failures, accessibilityViolations: accessibility.violations.length }, null, 2));
 });

@@ -1,14 +1,7 @@
 /* Photographic layer: retain the Sihilo palette, type and owl identity. */
 picture { display: block; }
 picture img { display: block; width: 100%; height: 100%; object-fit: cover; }
-.hero__photo { width: 100%; height: 100%; }
-.hero__photo img { object-position: 65% center; }
-.hero__overlay {
-  background: linear-gradient(90deg, rgba(0,0,0,.92) 0%, rgba(0,0,0,.76) 40%, rgba(0,0,0,.25) 100%),
-    linear-gradient(0deg, #000 0%, transparent 38%, rgba(0,0,0,.2) 100%);
-}
 .hero__content { margin-left: max(var(--pad), calc((100vw - var(--maxw)) / 2 + var(--pad))); padding-inline: 0; }
-.hero__image-note { position: absolute; bottom: 22px; left: var(--pad); right: 170px; z-index: 1; margin: 0; font-size: .68rem; color: #c0c8bc; }
 .photo-panel { margin: 0; overflow: hidden; border: 1px solid var(--hairline); border-radius: var(--radius); background: var(--panel); }
 .photo-panel picture { aspect-ratio: 16 / 9; overflow: hidden; }
 .photo-panel img { filter: saturate(.76); }
@@ -41,9 +34,6 @@ picture img { display: block; width: 100%; height: 100%; object-fit: cover; }
 }
 @media (max-width: 700px) {
   .hero__content { margin-left: 0; padding-inline: var(--pad); }
-  .hero__photo img { object-position: 62% center; }
-  .hero__overlay { background: linear-gradient(90deg, rgba(0,0,0,.88), rgba(0,0,0,.62)), linear-gradient(0deg,#000,transparent 70%); }
-  .hero__image-note { bottom: 18px; right: 150px; font-size: .6rem; }
   .sensor-story, .intelligence-photo, .closing__grid { grid-template-columns: 1fr; }
   .sensor-story picture { height: auto; aspect-ratio: 16 / 9; }
   .sensor-story .photo-panel:last-child img { object-position: center 36%; }

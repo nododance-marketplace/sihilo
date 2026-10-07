@@ -1,13 +1,7 @@
 {
-  "layoutShift": 0.016730309154369214,
-  "imageBytes": 369016,
+  "layoutShift": 0.016711380811149694,
+  "imageBytes": 161741,
   "images": [
-    {
-      "src": "http://127.0.0.1:4173/images/skydio/hero/commercial-campus-aerial-1920.avif",
-      "width": 1440,
-      "renderedWidth": 1440,
-      "loading": "eager"
-    },
     {
       "src": "http://127.0.0.1:4173/images/skydio/industrial/skydio-x10-substation-flight-1280.avif",
       "width": 892,

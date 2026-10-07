@@ -73,7 +73,17 @@
     <!-- Homepage section -->
     <section class="hero" id="hero">
       <div class="hero__media">
-        <picture class="hero__photo"><source type="image/avif" srcset="/images/skydio/hero/commercial-campus-aerial-480.avif 480w, /images/skydio/hero/commercial-campus-aerial-768.avif 768w, /images/skydio/hero/commercial-campus-aerial-1280.avif 1280w, /images/skydio/hero/commercial-campus-aerial-1920.avif 1920w" sizes="100vw" /><source type="image/webp" srcset="/images/skydio/hero/commercial-campus-aerial-480.webp 480w, /images/skydio/hero/commercial-campus-aerial-768.webp 768w, /images/skydio/hero/commercial-campus-aerial-1280.webp 1280w, /images/skydio/hero/commercial-campus-aerial-1920.webp 1920w" sizes="100vw" /><img src="/images/skydio/hero/commercial-campus-aerial-1920.webp" alt="" width="1920" height="1078" sizes="100vw" loading="eager" fetchpriority="high" decoding="async" /></picture>
+        <!-- Decorative muted animation; motion controls and reduced-motion fallback are handled in main.js. -->
+        <!-- html-validate-disable-next no-autoplay -->
+        <video
+          class="hero__video"
+          id="heroVideo"
+          autoplay muted loop playsinline
+          preload="metadata"
+          poster="assets/hero-poster.jpg"
+          aria-hidden="true">
+          <source src="assets/hero.mp4" type="video/mp4" />
+        </video>
         <div class="hero__overlay" aria-hidden="true"></div>
       </div>
 
@@ -89,7 +99,6 @@
         <p class="hero__support">Designed for dealerships, construction sites, equipment yards and industrial properties.</p>
         <p class="hero__availability">Early-stage platform &middot; Charlotte-area pilot partners wanted</p>
       </div>
-      <p class="hero__image-note">Illustrative commercial property &middot; not a Sihilo deployment</p>
       <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false">Pause motion</button>
     </section>
 

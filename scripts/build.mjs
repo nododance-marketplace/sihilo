@@ -9,7 +9,7 @@ await rm(out, { recursive: true, force: true });
 await mkdir(out, { recursive: true });
 const files = new Set(['index.html', 'css/styles.css', 'css/photography.css', 'js/main.js', 'robots.txt', 'sitemap.xml']);
 const html = await readFile(path.join(root, 'index.html'), 'utf8');
-for (const match of html.matchAll(/(?:assets|\/images)\/[a-zA-Z0-9_./-]+\.(?:png|jpg|ico|webp|avif)/g)) files.add(match[0].replace(/^\//, ''));
+for (const match of html.matchAll(/(?:assets|\/images)\/[a-zA-Z0-9_./-]+\.(?:png|jpg|ico|webp|avif|mp4)/g)) files.add(match[0].replace(/^\//, ''));
 let bytes = 0;
 for (const relative of files) {
   const source = path.join(root, relative.startsWith('images/') ? 'public' : '', relative);

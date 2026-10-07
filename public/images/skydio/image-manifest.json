@@ -137,8 +137,8 @@
       "permission_status": "user-reported-photographer-permission",
       "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
       "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
-      "recommended_website_section": "Hero",
-      "integrated": true,
+      "recommended_website_section": "Hero alternative; original Sihilo drone-to-owl video restored",
+      "integrated": false,
       "derivatives": [
         {
           "filename": "public/images/skydio/hero/commercial-campus-aerial-480.webp",
