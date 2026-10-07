@@ -1,0 +1,1485 @@
+[
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5192d83bd093448ea40054b63d22142829b3ba5b-1200x650.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "001",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/f7d19072039f498ee4f69635af8f5c127d4c49b8-3575x2507.jpg",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security",
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "open Skydio Dock for X10 with Skydio X10 drone on a rooftop in a city setting"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "002",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/6bc55640edeabf47e5af325d0eb78777e339f6f8-2880x1582.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security",
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio X10 drone flying over a transformer"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "003",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b6f32708c15ef1b6cc2310d71f70b4825e7ae198-3454x1922.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security",
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "warfighter with a Skydio X10D drone"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "004",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/7cad0624ce918e858f276373a93a2df79c44e6d9-3456x1940.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "005",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/708b701661da219af9ecd7c319b3b2c157c37988-1442x2098.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "006",
+    "disposition": "excluded",
+    "reason": "Redundant portrait crop; landscape original retained."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/469db8471b6234fb437fa8dfea8f2f9f4d303827-1627x764.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "007",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/507845aaa8b0834ab0d9f6502ed377b35a3f7c0d-1x1.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "008",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/e1fa9f5d87f145d71638376d4fcabbf6ab4538ff-1172x1172.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Security camera cluster "
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "009",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/ba8ed4c6c8560e32d8fc0263d7931f7090d99613-1800x1152.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Planned Missions to automate patrols "
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "010",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/e5b2f063867da9bcfde7a0d31de90beec2c94364-1800x1152.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Skydio Drone deters suspicious trespasser using spotlight and speaker attachments"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "011",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/55cecc797bbf47ee2102b1e20718e508d6fa4c21-1800x1152.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Skydio X10 Responds to a call of break in within 20 seconds "
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "012",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/51959601fcb364d0fee87626b90c15ef1865c8dc-2992x1684.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Sensors trigger events, human verification leads to automated drone response"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "013",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/59cf5cb7ba7ddbca89b47e89df136a2f4b63739b-2992x1684.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "014",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/958c6253902e383b07f3c6d97c5fecb18ef2ade7-2992x1684.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "015",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/906c48f56caf3649157e1bae043502964145730f-2992x1684.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "016",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/abff2f23958e28c54267ea7db0c22843172a0d3d-2992x1684.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Security officer responding to event trigger, informing stakeholders"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "017",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/9a7bd1413199818913d295938bdebe6bd6ef7a2f-4096x2731.jpg",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "018",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/19d8d81930949299032e77ef817165dbe0f7786a-1970x1108.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "019",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5508a47f380a7d5240a27fd04d92bf55287eabf1-2186x1374.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "020",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/f1f49fd419a54fb24a2e204b050ddc1ef156f977-1920x1920.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "021",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/3ca9056d4c2634619894b8b567291cccbe9463e4-2048x2048.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "022",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/f9d15fac02f209489a82f59c2ee35eca46fafcd6-3840x2160.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security",
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "023",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/061d279381a791e5c44c1e5994263bf0184b7fb2-1152x640.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "024",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b5c4451f9a38e86cfdaaa007a359a65095fae4e0-8642x4672.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "025",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/77fba914a746d64abd1c0db26460f1617263b9c3-8642x4672.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "026",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b9f5e488378a6daf67eb6ee890d15e63da688e55-764x1348.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "027",
+    "disposition": "excluded",
+    "reason": "Redundant portrait crop; landscape original retained."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/16a337c47ad8a7aaa8a60ddaa8ebabaea6611328-1920x1080.jpg",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "028",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b34fe6fc0eeb1e8cc85d56bed98bf76a63b0b21b-2992x1684.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "029",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/654f34b94802d17ed4f28c255d7f038f1e980900-3840x2160.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "030",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/7eb123414daff07084c98e525b5f78c130dbd7e6-3004x1698.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "031",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/a89873b00c2527cf95c923da46a286516e13c4a6-2928x1520.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "032",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/d645a1cd02de8cf1c8ab3359e6c643dd54425889-1280x720.jpg",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "033",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/dd1e9cc79d7ee7fee4dfc872a009c0f95fb38563-912x864.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Skydio X10 drone viewed from below, flying high between skyscraper buildings"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "034",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/4f9224c766860f6eefa901eeb9f982475e38a809-3750x2100.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "035",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/1a7613e70f5ec96dc4b6957e20c7a23ec53c2999-257x313.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Oklahoma City Police Dept badge a Skydio Aerial Achievement Award nominee"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "036",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/d0f3dafdcb62457fa9e1979fa9546ba7ef7dc486-2992x2076.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "037",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/35c953a211b6bacfb130e2e8dbb63f92849ec639-2992x2076.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "038",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/7d68c264871264f501382bc44946371ba99d92c0-3385x2208.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Skydio Success team includes in Field Experts "
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "039",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/35a5d9d10d77dbde2aac7c799b49ae13b57a977b-1720x968.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "FAA waiver services "
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "040",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/1c17db8e5c4c30b65d5fe473e543c494a36e9566-3446x2208.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Man training in Skydio Cloud "
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "041",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/010647a4bbd940875088bfe2bf8c1d733b1d521c-3385x2208.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "Success services team demonstrating customer on Skydio controller"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "042",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/50e8a34058c19d696b89bb98b603374b2cebaa1f-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "an aerial view of trucks from a skydio x10 drone"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "043",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/c105a44e23ee0c59553ab85971b0f3f53abc0bf2-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "a Skydio X10 drone over a building surrounded by razor wire fence"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "044",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/54f4bbc1a16d48c024bb0dbae850a9b24aad1d0f-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "045",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5206e7cdc0e7dd30d431797207157562c0f195c9-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "046",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/c61d44328cc0e4d048dd9deb5920c1a4dfe971f6-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "an aerial view of a car from a skydio x10 drone"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "047",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/bf191790badc70960fbae2f21da7eaf3314ca568-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "an aerial view of an airport from a skydio x10 drone"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "048",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/2efef4d4537c2867df1892e0db2fe21a57fd62b2-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [
+      "a Skydio X10 drone over power lines"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "049",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/26ce074006e611e8e863f3af16433bec3e2534fd-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "050",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/03fc162c2d77d0e5a0c17ca2abf91c226a756c44-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "051",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/c1a089ea7d37db85fa3ecc2a0dad281c07c319b1-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "052",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/0a243682fb0f8f77a69535852a929457fe447fa9-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "053",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/0e55e7c973d6bebe1059a9e93a714da35dc78d95-484x268.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "054",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/62a2b24b4645be37d4a23a3a5b2b1492f9360f2d-3506x1818.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "055",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/025dfe85bae75e0374d492a47b175dd4188e956c-3030x1722.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "056",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/941c605d466256d8c4f52bc90cc10e833feabb40-2560x1440.png",
+    "pages": [
+      "https://www.skydio.com/solutions/physical-security"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "057",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/6a6fef86c5dad572083363430f9a27971cc62a1a-2400x1300.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "058",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/c82e794a6ca66b6612df1932289ab790772510e9-1920x1080.jpg",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "059",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/cd1548472b57be4da19c8f202ba4cdfe3148f76b-2930x1120.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "060",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5094715ecc2e064a4af8d2292f4ac2de1aa3b637-2928x1412.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "061",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/07e3851b7e32f7da665dd14d3db1858072208cca-1152x760.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio X10 sensors"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "062",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/edd77511440b8df7da1806276d9e5b0fe422bbde-1728x1140.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio X10 sensors"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "063",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/bb195bbc6bdcd55bc57df970706619711f7dbf41-576x380.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio X10 sensors"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "064",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/51410dbe05c12cbb5a630b217321d68b8c84da05-2352x800.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "065",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/21f0657b38e8bd98db4c03c6447b05f09797d2af-1152x636.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio drone aerial view of a solar farm"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "066",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/9cc4f4897b6847138e401e36cae957b3e80f3750-1152x635.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "067",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/3fbc5c42c51fdd16362db475fc34480d34f2546a-1152x636.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio inspection drone view of critical infrastructure"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "068",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/ffed57a8227055968ed579de1a0c2b95786e3e45-1152x636.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio drone captured image of a power transformer"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "069",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/2f160e95b4f1321762127b6a93f57943e471738a-2352x800.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "070",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/fdc70cb3f20f2e9ad6dce2a2bb22d832f301faa9-1152x648.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "a thermal view of a power transformer captured with a Skydio drone"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "071",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/7c55dd46ab229ab6777db49599f515beae121193-1152x648.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "thermal image of two people on a rooftop captured with Skydio drone"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "072",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/40f3831d5cf7ae2b1b69f539469719272e1e895c-3528x1992.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "a Skydio X10 camera and lenses"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "073",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/12a91e43919ef4365eb9dc1de383a0053709a628-256x256.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "074",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/31935fb46fa971a701ff47e0aa75b334668c5d09-1152x636.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "city scape"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "075",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/78844d01197d6a7eb634557841b191343320dc46-1152x640.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "low light drone use"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "076",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/1487daeab453631c50bbd319cbfb9f772e17d15e-259x118.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "10X"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "077",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/9e13ce6bb0e31f7344cb418f35b9ac6768d24e58-564x568.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Nvidia chip used in Skydio drones"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "078",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b6f2e82a32580b204b4ac90dfd39283275192c57-2354x1152.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "drone used in the dark"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "079",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/dce32de1248e9f7707472a498c1c6723f62e6b22-704x705.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "drone used in the dark"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "080",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/3116dd920940c942ce0242e8498a50ecff2c576c-1008x1009.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "visible/IR light module"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "081",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/60f8c927bef076e3651fa7aed34b830657ab64c6-1920x1080.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "082",
+    "disposition": "excluded",
+    "reason": "Logo, branded promotional graphic, document mockup or interface graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/899197cd4cb42737dcd593fb23a91d5a7c3e4a0a-2445x1555.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "person talking"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "083",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/2764c2801e700a5478ea15c63504b8318a0d9947-3840x2090.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "084",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/15b569f29d2dece30032b5e330d9c33166d4ee6e-1128x614.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "085",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b5477660c6873bce3cbd936ffb13412aee12a149-1128x614.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "086",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/a898c83d202a3f61db965d6278bd410b44cb4ee6-3277x1999.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "officer with skydio x10 controller"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "087",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/07d1924cc854782521041ba30e6630c46c6508b2-3456x1940.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "skydio x10 drone flying autonomously remotely via 5g"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "088",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/80ec70bd8d67509ff6c419858a4589b76f95b41f-672x385.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "skydio x10 drone being used in a contested environment"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "089",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/f36756987ba2208658567d49f657e4a51de09481-3840x2160.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "090",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/d1cf716fd35e26400462dcfb0dc219714743c8ea-3840x2160.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "091",
+    "disposition": "excluded",
+    "reason": "Interface screenshot, screen-dominant photo, diagram, inset composite or rendered graphic; excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/6b3c033a812b0467afa78a7f261745af8af2c869-2832x1416.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "092",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/3de3cab301639f41b671fbee417b7ef92f75a24d-768x411.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "093",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/fae8e29cda21b1e1b2e1e3147c46f172cbb13d3b-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "094",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/10f86b1c5445d13946f6aeca17a8e3c4a1762b9a-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "095",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/7c0a06cd0538ec493361b679973cd0a710439398-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "096",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/41e4d0d6b632f9705c4c1ba49d64d0eb2482e6f1-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "097",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/e04c71fc896a56fbe920cbb2226218981fe6194b-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "098",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5d05c88853ae41fa581935507766ca44da29fe97-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "099",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/629dfaedd8618743fc47a365cd9bcdc1ceaaa4d6-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "100",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/8fd9dd33c20794fd20c4a7f35eed6ffba162ed15-2308x1296.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "101",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/34409812b6c1ae5b98614556dbd7e866d70b51ef-2352x1232.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "102",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/fc5c9bb4342e8f06c5473897e95bef9af11f6a42-1152x648.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "skydio X10 close up of propeller blades"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "103",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/8c84d5f683adf42b5a37f30f79b33fd88f35f56d-1152x880.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "Skydio X10 body close up underside of drone"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "104",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b5b96759982adb8587fe480ffaa37063f8e53950-1920x1080.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "105",
+    "disposition": "downloaded-candidate",
+    "reason": "See image-manifest.json"
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/2d9643cfb322432830ee77689870d3d1b1a7e305-1152x1152.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "person in server room"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "106",
+    "disposition": "excluded",
+    "reason": "Identifiable people, military context or event/training photography outside the property brief; likeness/third-party permission not established."
+  },
+  {
+    "url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/e0297708eba2bb0e86985131cad8d738216102b2-1152x1152.png",
+    "pages": [
+      "https://www.skydio.com/x10"
+    ],
+    "alt": [
+      "skydio z1 drone folded up"
+    ],
+    "discovered_in": [
+      "html, inline styles and page data"
+    ],
+    "id": "107",
+    "disposition": "excluded",
+    "reason": "Apparent studio product render or accessory graphic; photographer permission scope uncertain. Representative product candidates retained in unassigned; this variant excluded."
+  }
+]

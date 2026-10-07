@@ -1,0 +1,68 @@
+{
+  "layoutShift": 0.014534804116313655,
+  "imageBytes": 392930,
+  "images": [
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/hero/commercial-campus-aerial-1920.avif",
+      "width": 768,
+      "renderedWidth": 768,
+      "loading": "eager"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/skydio-x10-substation-flight-1280.avif",
+      "width": 476,
+      "renderedWidth": 416,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/security/outdoor-security-camera-cluster-480.avif",
+      "width": 230,
+      "renderedWidth": 251,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/security/drone-spotlight-night-patrol-1920.avif",
+      "width": 1180,
+      "renderedWidth": 383,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/drones/skydio-x10-in-flight-closeup-1280.avif",
+      "width": 559,
+      "renderedWidth": 689,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/vehicle-inventory-aerial-484.avif",
+      "width": 322,
+      "renderedWidth": 336,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/commercial-building-construction-484.avif",
+      "width": 322,
+      "renderedWidth": 336,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/shipping-container-storage-yard-484.avif",
+      "width": 322,
+      "renderedWidth": 336,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/industrial-logistics-property-aerial-484.avif",
+      "width": 322,
+      "renderedWidth": 336,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/aerial/commercial-property-aerial-at-dusk-1152.avif",
+      "width": 650,
+      "renderedWidth": 347,
+      "loading": "lazy"
+    }
+  ],
+  "errors": [],
+  "accessibilityViolations": 0
+}

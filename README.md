@@ -4,92 +4,52 @@ Single-page, mobile-first landing site for **Sihilo** — an early-stage physica
 
 > *Silent. Watching. Always.*
 
-Built with plain **HTML + CSS + vanilla JS**. No framework, no build step,
-no dependencies. Deploy-ready for Netlify, Vercel, or GitHub Pages out of the box.
-
----
-
-## File structure
-
-```
-.
-├── index.html              # The page (single file, all sections)
-├── css/
-│   └── styles.css          # All styles — brand tokens, layout, responsive, motion
-├── js/
-│   └── main.js             # Nav, motion controls, assessment / pilot form validation
-├── assets/
-│   ├── hero.mp4            # Hero background video (web-optimized, ~1 MB, muted/looping)
-│   ├── hero-poster.jpg     # Poster frame / video fallback
-│   ├── logo-mark.png       # Owl line-art mark (transparent) — nav
-│   ├── logo-full.png       # Owl + SIHILO wordmark (transparent) — footer
-│   ├── owl-art.jpg         # Cyberpunk owl render — "Why the Owl" section
-│   ├── drones.jpg          # Unused drone formation asset — "How It Works"
-│   ├── og-image.jpg        # 1200×630 Open Graph / Twitter card image
-│   ├── favicon.ico         # Favicon (owl head)
-│   ├── favicon-16.png / favicon-32.png / favicon-512.png
-│   └── apple-touch-icon.png
-├── netlify.toml            # Netlify config (publish dir + security headers)
-├── vercel.json             # Vercel config (static + headers)
-├── robots.txt              # SEO
-├── sitemap.xml             # SEO  (update the domain before launch)
-└── README.md
-```
-
----
+Built with plain **HTML + CSS + vanilla JS**, with no runtime dependencies. A small static build copies only homepage assets into `dist/`; the original photographic library and review documents are not published.
 
 ## Run locally
 
-It's a static site — no build. Any of these work:
+Requires Node.js 22.18+.
 
-**Just open it**
-Double-click `index.html`. (The hero video and fetch fallbacks all work from
-`file://`, though a local server is closer to production.)
-
-**Python (recommended — proper MIME types for video)**
 ```bash
-python -m http.server 8000
-# visit http://localhost:8000
+npm ci
+npm run build
+npm run preview
+# http://127.0.0.1:4173
 ```
 
-**Node**
+Serve `dist/`, not the repository root: the build maps `public/images/` to `/images/`. Opening `index.html` directly does not resolve these URLs.
+
+## Validate
+
 ```bash
-npx serve .
-# or: npx http-server -p 8000
+npx playwright install chromium
+npm run validate
 ```
 
-**VS Code:** the *Live Server* extension → "Open with Live Server".
+Runs ESLint, HTML validation, TypeScript checking of the existing JavaScript through `checkJs`, the static production build, and Chromium layout/accessibility tests at 1440, 768, 390 and 320 pixels. Screenshots and measured results are in `docs/skydio/`. No TypeScript application migration was introduced.
 
----
+## Files and image review
+
+- `index.html`: homepage and responsive picture markup.
+- `css/styles.css`: existing brand tokens, layout and motion styles.
+- `css/photography.css`: photo crops, image panels and responsive placement.
+- `js/main.js`: navigation, motion controls and assessment/pilot email form.
+- `assets/`: existing Sihilo owl marks, art, favicons and social image. Old hero video/poster retained locally but unused by the homepage/build.
+- `public/images/skydio/`: full-resolution originals and WebP/AVIF derivatives, organized by subject.
+- `public/images/skydio/image-manifest.json`: source, dimensions, hashes, permission status and placement.
+- `docs/skydio/contact-sheet.html`: clickable candidate library; open directly in a browser.
+- `docs/skydio/contact-sheet-*.jpg`: four printable contact sheets with filenames, dimensions and source URLs.
+- `docs/skydio/REPORT.md`: selection, limitations, validation and changed-file summary.
+- `scripts/`: extraction, asset preparation, static build and local preview server.
+- `tests/`: responsive, image-loading, accessibility and conversion regression checks.
 
 ## Deploy
 
-### Netlify
-- **Drag & drop:** zip the folder (or the folder itself) onto
-  <https://app.netlify.com/drop>. Done.
-- **Git:** connect the repo. `netlify.toml` already sets the publish directory
-  to the project root and there is no build command. Just deploy.
+Vercel and Netlify are configured to run `npm run build` and publish `dist/`. Run `npm run validate` before any deployment. Publish only after successful validation and authorization; the current publication was explicitly requested by the user.
 
-### Vercel
-- **CLI:** `npm i -g vercel` then `vercel` in this folder, accept defaults.
-- **Git:** import the repo at <https://vercel.com/new>. Framework preset:
-  **Other**. Build command: *(none)*. Output directory: `.`
-  `vercel.json` is already set up for a static deploy.
+For a manual upload, upload only `dist/`. Do not upload the repository root: it contains original licensed candidates and internal review records. A host mounted below a URL subpath needs a corresponding rewrite/base-path adjustment for `/images/`.
 
-### GitHub Pages
-1. Push this folder to a GitHub repo.
-2. Repo → **Settings → Pages**.
-3. Source: **Deploy from a branch** → branch `main`, folder `/ (root)`.
-4. Save. Your site goes live at `https://<user>.github.io/<repo>/`.
-
-> If you deploy to a **sub-path** (e.g. GitHub Pages project sites), all asset
-> paths in this project are already **relative** (`assets/…`, `css/…`, `js/…`),
-> so they resolve correctly with no changes.
-
-**Before launch:** update the absolute URLs in `sitemap.xml` and the
-`og:url` / canonical references in `index.html` to your real domain.
-
----
+Canonical, Open Graph and sitemap URLs use `https://sihilo.vercel.app/`; update them together if the domain changes.
 
 ## Connect the contact form
 
@@ -146,15 +106,14 @@ All tokens are CSS variables at the top of [`css/styles.css`](css/styles.css).
   keyboard-navigable nav + form, visible focus rings.
 - Respects `prefers-reduced-motion`: disables video autoplay, scroll reveals, and
   dashboard animations; shows representative static states instead.
-- Hero video is muted/looping with a poster frame and a JS fallback if it can't
-  play. Below-the-fold images use `loading="lazy"`.
+- The photographic hero loads eagerly with high priority. Below-the-fold images use `loading="lazy"`, explicit dimensions, AVIF/WebP sources and responsive sizes.
 
 
 ## Homepage positioning and feature status
 
 The homepage leads with commercial property assessments and a proposed 90-day
 Charlotte pilot. It preserves the existing owl branding, typography, colors,
-hero media, and static architecture. Drones are one possible sensor, conditional
+owl imagery and static architecture. Drones are one possible sensor, conditional
 on site configuration and operating authorization.
 
 Current website functionality: navigation, motion controls, intake validation,
@@ -169,18 +128,7 @@ policy choices, not functioning controls. Pilot scope must be confirmed per site
 
 ## Validation and publishing
 
-There is no package.json, TypeScript, lint configuration, or compilation step.
-Vercel serves the existing HTML/CSS/JS directly. Do not add a framework or build
-pipeline just to publish copy changes.
-
-Before pushing main (which triggers Vercel production deployment):
-
-- Run `node --check js/main.js` and `git diff --check`.
-- Serve locally and inspect mobile and desktop layouts, internal links, metadata,
-  image loading, browser console, keyboard navigation and reduced motion.
-- Check required-field validation and both assessment/pilot inquiry paths.
-- Verify the email draft recipient and all intake fields without sending email.
-- Check that all feature claims retain the appropriate capability labels.
+Run `npm run validate` and `git diff --check` before publishing. The production build includes only referenced image derivatives; originals, manifests and review materials stay local. Photographer identity and asset-specific permission scope are still unverified; see the manifest before any future publication. Preserve the existing capability labels and verify the email draft without sending it.
 
 Canonical, OpenGraph and sitemap URLs currently use the verified deployment
 origin https://sihilo.vercel.app/. Update all together if a custom domain is connected.

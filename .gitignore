@@ -7,6 +7,9 @@ Thumbs.db
 .netlify/
 .vercel/
 node_modules/
+dist/
+test-results/
+playwright-report/
 
 # Local editor / agent settings
 .claude/

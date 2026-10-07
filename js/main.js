@@ -40,7 +40,7 @@
 
   // Close the mobile menu after choosing a destination
   navLinks.addEventListener("click", (e) => {
-    if (e.target.closest("a")) closeMenu();
+    if (e.target instanceof Element && e.target.closest("a")) closeMenu();
   });
 
   // Escape closes the menu and returns focus to the toggle
@@ -104,7 +104,7 @@
   /* ---------------------------------------------------------
      3. HERO VIDEO — graceful fallback + reduced-motion pause
      --------------------------------------------------------- */
-  const heroVideo = document.getElementById("heroVideo");
+  const heroVideo = document.querySelector("video");
   if (heroVideo) {
     if (prefersReducedMotion) {
       // Don't autoplay; the poster frame stands in.
@@ -122,7 +122,7 @@
     heroVideo.addEventListener("error", () => {
       // If the source fails entirely, fall back to the poster image.
       heroVideo.style.display = "none";
-      const media = heroVideo.closest(".hero__media");
+      const media = heroVideo.closest("div");
       if (media) {
         media.style.background =
           "#000 center/cover no-repeat url('assets/hero-poster.jpg')";
@@ -160,7 +160,7 @@
   applyMotion();
 
   /* Site assessment / pilot intake: validates locally and prepares an email. */
-  const form = document.getElementById("quoteForm");
+  const form = document.querySelector("form");
   const success = document.getElementById("formSuccess");
 
   // Where the form posts. Plug in a real endpoint here (e.g. Formspree):
@@ -172,7 +172,7 @@
     const fields = {
       name: form.querySelector("#name"),
       company: form.querySelector("#company"),
-      property: form.querySelector("#property"),
+      property: /** @type {HTMLSelectElement} */ (form.querySelector("#property")),
       email: form.querySelector("#email"),
       concern: form.querySelector("#concern"),
     };
@@ -216,16 +216,16 @@
       });
     });
 
-    const inquiry = form.querySelector("#inquiry");
-    const submitButton = form.querySelector('[type="submit"]');
+    const inquiry = /** @type {HTMLSelectElement} */ (form.querySelector("#inquiry"));
+    const submitButton = /** @type {HTMLButtonElement} */ (form.querySelector('[type="submit"]'));
     const updateInquiry = () => {
       submitButton.textContent = inquiry.value === "90-day pilot"
         ? "Apply for a 90-Day Pilot" : "Request a Site Assessment";
     };
     inquiry.addEventListener("change", updateInquiry);
-    document.querySelectorAll("[data-inquiry]").forEach((link) => {
+    document.querySelectorAll("a[data-inquiry]").forEach((link) => {
       link.addEventListener("click", () => {
-        inquiry.value = link.dataset.inquiry;
+        inquiry.value = link.getAttribute("data-inquiry");
         updateInquiry();
       });
     });

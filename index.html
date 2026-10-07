@@ -41,6 +41,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Saira:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="css/photography.css" />
 </head>
 <body>
   <a class="skip-link" href="#top">Skip to content</a>
@@ -57,11 +58,12 @@
         <a href="#intelligence">Platform</a>
         <a href="#how">How It Works</a>
         <a href="#coverage">Coverage</a>
+        <a href="#air">Sihilo Air</a>
         <a href="#pilot">Site Pilot</a>
         <a class="btn btn--neon nav__cta" href="#contact">Request a Site Assessment</a>
       </nav>
 
-      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+      <button class="nav__toggle" id="navToggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
         <span></span><span></span><span></span>
       </button>
     </div>
@@ -71,14 +73,7 @@
     <!-- Homepage section -->
     <section class="hero" id="hero">
       <div class="hero__media">
-        <video
-          class="hero__video"
-          id="heroVideo"
-          autoplay muted loop playsinline
-          preload="metadata"
-          poster="assets/hero-poster.jpg">
-          <source src="assets/hero.mp4" type="video/mp4" />
-        </video>
+        <picture class="hero__photo"><source type="image/avif" srcset="/images/skydio/hero/commercial-campus-aerial-480.avif 480w, /images/skydio/hero/commercial-campus-aerial-768.avif 768w, /images/skydio/hero/commercial-campus-aerial-1280.avif 1280w, /images/skydio/hero/commercial-campus-aerial-1920.avif 1920w" sizes="100vw" /><source type="image/webp" srcset="/images/skydio/hero/commercial-campus-aerial-480.webp 480w, /images/skydio/hero/commercial-campus-aerial-768.webp 768w, /images/skydio/hero/commercial-campus-aerial-1280.webp 1280w, /images/skydio/hero/commercial-campus-aerial-1920.webp 1920w" sizes="100vw" /><img src="/images/skydio/hero/commercial-campus-aerial-1920.webp" alt="" width="1920" height="1078" sizes="100vw" loading="eager" fetchpriority="high" decoding="async" /></picture>
         <div class="hero__overlay" aria-hidden="true"></div>
       </div>
 
@@ -94,6 +89,7 @@
         <p class="hero__support">Designed for dealerships, construction sites, equipment yards and industrial properties.</p>
         <p class="hero__availability">Early-stage platform &middot; Charlotte-area pilot partners wanted</p>
       </div>
+      <p class="hero__image-note">Illustrative commercial property &middot; not a Sihilo deployment</p>
       <button class="motion-toggle" id="motionToggle" type="button" aria-pressed="false">Pause motion</button>
     </section>
 
@@ -127,7 +123,11 @@
           <h2 class="section__title">From scattered signals<br />to <span class="accent">a clear next step.</span></h2>
           <p class="section__intro">Our proposed pilot workflow connects observation to human judgment. The sensors, detection rules and escalation plan are scoped around your property.</p>
         </div>
-        <p class="process-line" aria-label="Observe, understand, verify, respond">Observe <span aria-hidden="true">&rarr;</span> Understand <span aria-hidden="true">&rarr;</span> Verify <span aria-hidden="true">&rarr;</span> Respond</p>
+        <div class="sensor-story reveal">
+          <figure class="photo-panel"><picture class=""><source type="image/avif" srcset="/images/skydio/industrial/skydio-x10-substation-flight-480.avif 480w, /images/skydio/industrial/skydio-x10-substation-flight-768.avif 768w, /images/skydio/industrial/skydio-x10-substation-flight-1280.avif 1280w, /images/skydio/industrial/skydio-x10-substation-flight-1920.avif 1920w" sizes="(max-width: 700px) 90vw, 62vw" /><source type="image/webp" srcset="/images/skydio/industrial/skydio-x10-substation-flight-480.webp 480w, /images/skydio/industrial/skydio-x10-substation-flight-768.webp 768w, /images/skydio/industrial/skydio-x10-substation-flight-1280.webp 1280w, /images/skydio/industrial/skydio-x10-substation-flight-1920.webp 1920w" sizes="(max-width: 700px) 90vw, 62vw" /><img src="/images/skydio/industrial/skydio-x10-substation-flight-1920.webp" alt="Drone flying beside electrical substation equipment" width="1920" height="1055" sizes="(max-width: 700px) 90vw, 62vw" loading="lazy" decoding="async" /></picture><figcaption>Mobile perspective <span>Aerial hardware shown for illustration</span></figcaption></figure>
+          <figure class="photo-panel"><picture class=""><source type="image/avif" srcset="/images/skydio/security/outdoor-security-camera-cluster-480.avif 480w, /images/skydio/security/outdoor-security-camera-cluster-768.avif 768w, /images/skydio/security/outdoor-security-camera-cluster-1172.avif 1172w" sizes="(max-width: 700px) 90vw, 30vw" /><source type="image/webp" srcset="/images/skydio/security/outdoor-security-camera-cluster-480.webp 480w, /images/skydio/security/outdoor-security-camera-cluster-768.webp 768w, /images/skydio/security/outdoor-security-camera-cluster-1172.webp 1172w" sizes="(max-width: 700px) 90vw, 30vw" /><img src="/images/skydio/security/outdoor-security-camera-cluster-1172.webp" alt="Cluster of fixed security cameras mounted on an outdoor pole" width="1172" height="1172" sizes="(max-width: 700px) 90vw, 30vw" loading="lazy" decoding="async" /></picture><figcaption>Fixed observation <span>Start with the site’s existing sensors</span></figcaption></figure>
+        </div>
+        <p class="process-line">Observe <span aria-hidden="true">&rarr;</span> Understand <span aria-hidden="true">&rarr;</span> Verify <span aria-hidden="true">&rarr;</span> Respond</p>
         <ol class="how__steps">
           <li class="how__step reveal"><span class="how__num">01</span><h3 class="how__title">Observe</h3><p>Start with compatible existing cameras and appropriate site sensors. Identify where additional viewpoints would close a coverage gap.</p></li>
           <li class="how__step reveal"><span class="how__num">02</span><h3 class="how__title">Understand</h3><p>Develop local computer vision and sensor fusion to interpret movement, sound, thermal signatures and other available signals together.</p></li>
@@ -145,7 +145,8 @@
           <h2 class="section__title">One intelligence layer.<br /><span class="accent">Every sensor.</span></h2>
           <p class="section__intro">Your property has thousands of signals. Sihilo is designed to turn them into one picture. The architecture is hardware-flexible: a drone is one mobile sensor within a broader system.</p>
         </div>
-        <div class="architecture reveal" aria-label="Proposed architecture: cameras, thermal, drones, acoustic, RF and access systems feed Sihilo intelligence, supporting anomaly detection, site memory, verification and human response.">
+        <figure class="intelligence-photo photo-panel reveal"><picture class=""><source type="image/avif" srcset="/images/skydio/security/drone-spotlight-night-patrol-480.avif 480w, /images/skydio/security/drone-spotlight-night-patrol-768.avif 768w, /images/skydio/security/drone-spotlight-night-patrol-1280.avif 1280w, /images/skydio/security/drone-spotlight-night-patrol-1920.avif 1920w" sizes="(max-width: 700px) 90vw, 1180px" /><source type="image/webp" srcset="/images/skydio/security/drone-spotlight-night-patrol-480.webp 480w, /images/skydio/security/drone-spotlight-night-patrol-768.webp 768w, /images/skydio/security/drone-spotlight-night-patrol-1280.webp 1280w, /images/skydio/security/drone-spotlight-night-patrol-1920.webp 1920w" sizes="(max-width: 700px) 90vw, 1180px" /><img src="/images/skydio/security/drone-spotlight-night-patrol-1920.webp" alt="Drone using a downward spotlight beside trees at night" width="1920" height="1081" sizes="(max-width: 700px) 90vw, 1180px" loading="lazy" decoding="async" /></picture><figcaption>Another angle when context matters.<span>Illustrative aerial flight. Aerial verification is a Sihilo roadmap capability.</span></figcaption></figure>
+        <div class="architecture reveal" role="group" aria-label="Proposed architecture: cameras, thermal, drones, acoustic, RF and access systems feed Sihilo intelligence, supporting anomaly detection, site memory, verification and human response.">
           <ul class="architecture__inputs"><li>Fixed cameras</li><li>Thermal</li><li>Drones</li><li>Acoustic</li><li>RF / network</li><li>Access systems</li></ul>
           <div class="architecture__core"><img src="assets/logo-mark.png" alt="" width="46" height="40" /><strong>SIHILO<br />INTELLIGENCE</strong><span>Proposed architecture</span></div>
           <ul class="architecture__outputs"><li>Anomaly detection</li><li>Site memory</li><li>Verification</li><li>Human response</li></ul>
@@ -177,7 +178,7 @@
           <div class="dash__body">
             <div class="dash__visuals">
               <h3 class="rail__title">Camera feeds / illustrative</h3>
-              <div class="dash__feeds" aria-label="Illustrative camera viewpoints, not live footage">
+              <div class="dash__feeds" role="group" aria-label="Illustrative camera viewpoints, not live footage">
                 <div class="feed feed--lot"><span class="feed__scene">LOT A</span><div class="feed__scan" aria-hidden="true"></div><div class="feed__meta">Camera 01 &middot; Inventory</div></div>
                 <div class="feed feed--alert"><span class="feed__scene">EAST PERIMETER</span><div class="feed__box" aria-hidden="true"></div><div class="feed__meta">Camera 03 &middot; Person detected</div></div>
               </div>
@@ -201,6 +202,20 @@
       </div>
     </section>
 
+    <section class="section section--air" id="air" aria-labelledby="air-title">
+      <div class="container feature-split">
+        <div class="reveal">
+          <p class="kicker">Sihilo Air / roadmap</p>
+          <h2 class="section__title" id="air-title">A new perspective.<br /><span class="accent">A clearer decision.</span></h2>
+          <p class="section__intro">Some blind spots need a mobile viewpoint. Sihilo Air is our planned approach to bringing aerial verification into the same workflow as cameras and site sensors.</p>
+          <p class="air__detail">Hardware selection, operator responsibilities and flight authorization are defined for each site. Aerial operations are not currently offered as a deployed Sihilo service.</p>
+          <a class="btn btn--ghost" href="#contact">Discuss Your Site’s Coverage</a>
+        </div>
+        <figure class="photo-panel air__photo reveal"><picture class=""><source type="image/avif" srcset="/images/skydio/drones/skydio-x10-in-flight-closeup-480.avif 480w, /images/skydio/drones/skydio-x10-in-flight-closeup-768.avif 768w, /images/skydio/drones/skydio-x10-in-flight-closeup-1280.avif 1280w, /images/skydio/drones/skydio-x10-in-flight-closeup-1920.avif 1920w" sizes="(max-width: 700px) 90vw, 560px" /><source type="image/webp" srcset="/images/skydio/drones/skydio-x10-in-flight-closeup-480.webp 480w, /images/skydio/drones/skydio-x10-in-flight-closeup-768.webp 768w, /images/skydio/drones/skydio-x10-in-flight-closeup-1280.webp 1280w, /images/skydio/drones/skydio-x10-in-flight-closeup-1920.webp 1920w" sizes="(max-width: 700px) 90vw, 560px" /><img src="/images/skydio/drones/skydio-x10-in-flight-closeup-1920.webp" alt="Close-up of a drone in flight against a cloudy sky" width="1920" height="1280" sizes="(max-width: 700px) 90vw, 560px" loading="lazy" decoding="async" /></picture><figcaption>Aerial perspective <span>Third-party hardware shown for illustration.</span></figcaption></figure>
+      </div>
+      <p class="container section__footnote">Sihilo develops the intelligence layer, not the aircraft. Imagery does not indicate hardware ownership, a confirmed integration or a hardware partnership.</p>
+    </section>
+
     <section class="section section--edge" id="edge">
       <div class="container feature-split">
         <div class="reveal"><p class="kicker">Sihilo Edge / product concept</p><h2 class="section__title">Understand more.<br /><span class="accent">Upload less.</span></h2><p class="section__intro">Your property shouldn't need to stream every second of every camera to the cloud just to understand what's happening.</p></div>
@@ -217,7 +232,7 @@
           <article class="info-card"><span class="how__num">03 / ROUTINE FOOTAGE</span><h3>Reduce repetition</h3><p>Compress or lower storage priority as permitted by customer policy.</p></article>
           <article class="info-card"><span class="how__num">04 / EVENT METADATA</span><h3>Find the useful moments</h3><p>Retain searchable event records for the agreed period, with access controls.</p></article>
         </div>
-        <div class="memory-policy"><div><h3>Customer-configurable retention</h3><p>Planned policy options, subject to storage capacity and pilot scope.</p></div><ul class="retention-options" aria-label="Planned retention options"><li>7 days</li><li>30 days</li><li>90 days</li><li>Custom</li></ul></div>
+        <div class="memory-policy"><div><h3>Customer-configurable retention</h3><p>Planned policy options, subject to storage capacity and pilot scope.</p></div><ul class="retention-options"><li>7 days</li><li>30 days</li><li>90 days</li><li>Custom</li></ul></div>
         <details class="detail-panel"><summary>What could Site Memory help you find?</summary><p>&ldquo;What happened near Gate 3 last Tuesday night?&rdquo; &ldquo;Show every after-hours vehicle event this month.&rdquo; &ldquo;When was this equipment last observed?&rdquo;</p><p>These are design goals. Natural-language video search and equipment tracking are roadmap concepts, not available product features.</p></details>
       </div>
     </section>
@@ -236,15 +251,17 @@
     <section class="section section--coverage" id="coverage">
       <div class="container"><div class="section__head reveal"><p class="kicker">Designed around your property</p><h2 class="section__title">High-value assets.<br /><span class="accent">Real-world blind spots.</span></h2><p class="section__intro">Initial pilot focus: commercial properties in Charlotte, NC and the surrounding area.</p></div>
         <ul class="coverage__grid">
-          <li class="coverage__card reveal"><span class="coverage__idx">01</span><h3>Auto dealerships</h3><p>Valuable vehicles, large outdoor inventories, multiple access points and long overnight periods.</p></li>
-          <li class="coverage__card reveal"><span class="coverage__idx">02</span><h3>Construction sites</h3><p>Changing layouts, materials, equipment and temporary perimeters make static security difficult.</p></li>
-          <li class="coverage__card reveal"><span class="coverage__idx">03</span><h3>Equipment &amp; storage yards</h3><p>High-value machinery and vehicles spread across outdoor areas, often beyond a single camera's view.</p></li>
-          <li class="coverage__card reveal"><span class="coverage__idx">04</span><h3>Industrial / logistics</h3><p>Large footprints, loading areas, gates and after-hours activity create more signals than a person can watch at once.</p></li>
+          <li class="coverage__card reveal"><picture class="coverage__photo"><source type="image/avif" srcset="/images/skydio/industrial/vehicle-inventory-aerial-480.avif 480w, /images/skydio/industrial/vehicle-inventory-aerial-484.avif 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><source type="image/webp" srcset="/images/skydio/industrial/vehicle-inventory-aerial-480.webp 480w, /images/skydio/industrial/vehicle-inventory-aerial-484.webp 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><img src="/images/skydio/industrial/vehicle-inventory-aerial-484.webp" alt="Rows of vehicles in an outdoor inventory lot" width="484" height="268" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" loading="lazy" decoding="async" /></picture><span class="coverage__idx">01</span><h3>Auto dealerships</h3><p>Valuable vehicles, large outdoor inventories, multiple access points and long overnight periods.</p></li>
+          <li class="coverage__card reveal"><picture class="coverage__photo"><source type="image/avif" srcset="/images/skydio/industrial/commercial-building-construction-480.avif 480w, /images/skydio/industrial/commercial-building-construction-484.avif 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><source type="image/webp" srcset="/images/skydio/industrial/commercial-building-construction-480.webp 480w, /images/skydio/industrial/commercial-building-construction-484.webp 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><img src="/images/skydio/industrial/commercial-building-construction-484.webp" alt="Commercial building under construction with an elevated work platform" width="484" height="268" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" loading="lazy" decoding="async" /></picture><span class="coverage__idx">02</span><h3>Construction sites</h3><p>Changing layouts, materials, equipment and temporary perimeters make static security difficult.</p></li>
+          <li class="coverage__card reveal"><picture class="coverage__photo"><source type="image/avif" srcset="/images/skydio/industrial/shipping-container-storage-yard-480.avif 480w, /images/skydio/industrial/shipping-container-storage-yard-484.avif 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><source type="image/webp" srcset="/images/skydio/industrial/shipping-container-storage-yard-480.webp 480w, /images/skydio/industrial/shipping-container-storage-yard-484.webp 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><img src="/images/skydio/industrial/shipping-container-storage-yard-484.webp" alt="Shipping containers lining an outdoor storage yard" width="484" height="268" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" loading="lazy" decoding="async" /></picture><span class="coverage__idx">03</span><h3>Equipment &amp; storage yards</h3><p>High-value machinery and vehicles spread across outdoor areas, often beyond a single camera's view.</p></li>
+          <li class="coverage__card reveal"><picture class="coverage__photo"><source type="image/avif" srcset="/images/skydio/industrial/industrial-logistics-property-aerial-480.avif 480w, /images/skydio/industrial/industrial-logistics-property-aerial-484.avif 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><source type="image/webp" srcset="/images/skydio/industrial/industrial-logistics-property-aerial-480.webp 480w, /images/skydio/industrial/industrial-logistics-property-aerial-484.webp 484w" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" /><img src="/images/skydio/industrial/industrial-logistics-property-aerial-484.webp" alt="Aerial view of a large industrial property and surrounding parking areas" width="484" height="268" sizes="(max-width: 520px) 90vw, (max-width: 1020px) 42vw, 280px" loading="lazy" decoding="async" /></picture><span class="coverage__idx">04</span><h3>Industrial / logistics</h3><p>Large footprints, loading areas, gates and after-hours activity create more signals than a person can watch at once.</p></li>
         </ul>
       </div>
     </section>
 
     <!-- Homepage section -->
+    <p class="container section__footnote photo-disclosure">Property photographs illustrate site types; they are not Sihilo customer locations.</p>
+
     <section class="section section--privacy" id="privacy">
       <div class="container feature-split">
         <div class="reveal"><p class="kicker">Privacy by design</p><h2 class="section__title">Built for security<br /><span class="accent">without unnecessary surveillance.</span></h2><p class="section__intro">Define what needs watching, who can access it and how long to keep it. Those decisions belong in the site plan from the start.</p></div>
@@ -271,6 +288,13 @@
     </section>
 
     <!-- Homepage section -->
+    <section class="section section--closing" aria-labelledby="closing-title">
+      <div class="container closing__grid">
+        <figure class="photo-panel closing__photo reveal"><picture class=""><source type="image/avif" srcset="/images/skydio/aerial/commercial-property-aerial-at-dusk-480.avif 480w, /images/skydio/aerial/commercial-property-aerial-at-dusk-768.avif 768w, /images/skydio/aerial/commercial-property-aerial-at-dusk-1152.avif 1152w" sizes="(max-width: 700px) 90vw, 650px" /><source type="image/webp" srcset="/images/skydio/aerial/commercial-property-aerial-at-dusk-480.webp 480w, /images/skydio/aerial/commercial-property-aerial-at-dusk-768.webp 768w, /images/skydio/aerial/commercial-property-aerial-at-dusk-1152.webp 1152w" sizes="(max-width: 700px) 90vw, 650px" /><img src="/images/skydio/aerial/commercial-property-aerial-at-dusk-1152.webp" alt="Commercial property and surrounding landscape at dusk" width="1152" height="640" sizes="(max-width: 700px) 90vw, 650px" loading="lazy" decoding="async" /></picture><figcaption>When the day ends, the questions don’t.<span>Illustrative property at dusk.</span></figcaption></figure>
+        <div class="reveal"><p class="kicker">Start with the blind spots</p><h2 class="section__title" id="closing-title">What happens<br /><span class="accent">after hours?</span></h2><p class="section__intro">Let’s map the gaps in your property’s coverage and define a practical first step.</p><a class="btn btn--neon" href="#contact">Request a Site Assessment</a></div>
+      </div>
+    </section>
+
     <section class="section section--contact" id="contact">
       <div class="container contact__grid">
         <div class="contact__intro reveal">
@@ -343,6 +367,7 @@
         <a href="#intelligence">Platform</a>
         <a href="#how">How It Works</a>
         <a href="#coverage">Coverage</a>
+        <a href="#air">Sihilo Air</a>
         <a href="#pilot">Site Pilot</a>
         <a href="#roadmap">Roadmap</a>
         <a href="#privacy">Privacy by Design</a>

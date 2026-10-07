@@ -1,0 +1,68 @@
+{
+  "layoutShift": 0,
+  "imageBytes": 339014,
+  "images": [
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/hero/commercial-campus-aerial-1280.avif",
+      "width": 390,
+      "renderedWidth": 390,
+      "loading": "eager"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/skydio-x10-substation-flight-1280.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/security/outdoor-security-camera-cluster-1172.avif",
+      "width": 350,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/security/drone-spotlight-night-patrol-1280.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/drones/skydio-x10-in-flight-closeup-1280.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/vehicle-inventory-aerial-484.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/commercial-building-construction-484.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/shipping-container-storage-yard-484.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/industrial/industrial-logistics-property-aerial-484.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/images/skydio/aerial/commercial-property-aerial-at-dusk-1152.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    }
+  ],
+  "errors": [],
+  "accessibilityViolations": 0
+}

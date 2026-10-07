@@ -1,7 +1,7 @@
-# Netlify — static site, no build step.
+# Netlify — deploy only the validated static build.
 [build]
-  publish = "."
-  command = ""
+  publish = "dist"
+  command = "npm run build"
 
 # Sensible default security + caching headers.
 [[headers]]

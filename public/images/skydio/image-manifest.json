@@ -1,0 +1,1569 @@
+{
+  "schema_version": 1,
+  "review_date": "2026-10-07",
+  "permission_policy": "User-reported permission is accepted for photographic candidates for this local integration. Attribution and asset-level scope remain unverified; renders/composites are held. No production deployment performed.",
+  "assets": [
+    {
+      "id": "002",
+      "filename": "public/images/skydio/drones/skydio-x10-rooftop-dock.jpg",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/f7d19072039f498ee4f69635af8f5c127d4c49b8-3575x2507.jpg",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security",
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 3575,
+        "height": 2507
+      },
+      "file_format": "JPEG",
+      "bytes": 646270,
+      "sha256": "5ebb05aedf78a09aad6249888612babf1c75e518c2460f42a4e7510b58aea3a0",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-rooftop-dock-960.webp",
+          "width": 960,
+          "height": 673,
+          "format": "webp",
+          "bytes": 26168
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "003",
+      "filename": "public/images/skydio/industrial/skydio-x10-substation-flight.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/6bc55640edeabf47e5af325d0eb78777e339f6f8-2880x1582.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security",
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 2880,
+        "height": 1582
+      },
+      "file_format": "PNG",
+      "bytes": 5380359,
+      "sha256": "27d8da58f4cc5ff1bd134c19789487bd5a60aad77e155a02d6546cf50767bd32",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "How Sihilo Works",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-480.webp",
+          "width": 480,
+          "height": 264,
+          "format": "webp",
+          "bytes": 17202
+        },
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-480.avif",
+          "width": 480,
+          "height": 264,
+          "format": "avif",
+          "bytes": 14060
+        },
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-768.webp",
+          "width": 768,
+          "height": 422,
+          "format": "webp",
+          "bytes": 34032
+        },
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-768.avif",
+          "width": 768,
+          "height": 422,
+          "format": "avif",
+          "bytes": 27389
+        },
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-1280.webp",
+          "width": 1280,
+          "height": 703,
+          "format": "webp",
+          "bytes": 66664
+        },
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-1280.avif",
+          "width": 1280,
+          "height": 703,
+          "format": "avif",
+          "bytes": 50231
+        },
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-1920.webp",
+          "width": 1920,
+          "height": 1055,
+          "format": "webp",
+          "bytes": 106262
+        },
+        {
+          "filename": "public/images/skydio/industrial/skydio-x10-substation-flight-1920.avif",
+          "width": 1920,
+          "height": 1055,
+          "format": "avif",
+          "bytes": 76807
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "005",
+      "filename": "public/images/skydio/hero/commercial-campus-aerial.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/7cad0624ce918e858f276373a93a2df79c44e6d9-3456x1940.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 3456,
+        "height": 1940
+      },
+      "file_format": "PNG",
+      "bytes": 14254937,
+      "sha256": "1d68693a84799cbe818c755428796d594bf71debba861b0b1601fa3a463c3e6f",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Hero",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-480.webp",
+          "width": 480,
+          "height": 269,
+          "format": "webp",
+          "bytes": 33558
+        },
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-480.avif",
+          "width": 480,
+          "height": 269,
+          "format": "avif",
+          "bytes": 28832
+        },
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-768.webp",
+          "width": 768,
+          "height": 431,
+          "format": "webp",
+          "bytes": 74798
+        },
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-768.avif",
+          "width": 768,
+          "height": 431,
+          "format": "avif",
+          "bytes": 62849
+        },
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-1280.webp",
+          "width": 1280,
+          "height": 719,
+          "format": "webp",
+          "bytes": 165424
+        },
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-1280.avif",
+          "width": 1280,
+          "height": 719,
+          "format": "avif",
+          "bytes": 133671
+        },
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-1920.webp",
+          "width": 1920,
+          "height": 1078,
+          "format": "webp",
+          "bytes": 264994
+        },
+        {
+          "filename": "public/images/skydio/hero/commercial-campus-aerial-1920.avif",
+          "width": 1920,
+          "height": 1078,
+          "format": "avif",
+          "bytes": 207275
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "007",
+      "filename": "public/images/skydio/thermal/thermal-person-at-woodland-edge.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/469db8471b6234fb437fa8dfea8f2f9f4d303827-1627x764.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 1627,
+        "height": 764
+      },
+      "file_format": "PNG",
+      "bytes": 921217,
+      "sha256": "e4ab540e7812545d77d61cf9fc5f2dbcedb9f8bee79f00c76a8959286f9c0b2a",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Thermal sensor capture: unclear whether photographer permission covers this data product. Hold for asset-specific clearance.",
+      "recommended_website_section": "Security Intelligence alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/thermal/thermal-person-at-woodland-edge-960.webp",
+          "width": 960,
+          "height": 451,
+          "format": "webp",
+          "bytes": 32388
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "009",
+      "filename": "public/images/skydio/security/outdoor-security-camera-cluster.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/e1fa9f5d87f145d71638376d4fcabbf6ab4538ff-1172x1172.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 1172,
+        "height": 1172
+      },
+      "file_format": "PNG",
+      "bytes": 1803976,
+      "sha256": "d7e21a308994738aa396d3b1b3ae48dbd2c75b6d16fa79f5ca148a8f0e339001",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "How Sihilo Works",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/security/outdoor-security-camera-cluster-480.webp",
+          "width": 480,
+          "height": 480,
+          "format": "webp",
+          "bytes": 18756
+        },
+        {
+          "filename": "public/images/skydio/security/outdoor-security-camera-cluster-480.avif",
+          "width": 480,
+          "height": 480,
+          "format": "avif",
+          "bytes": 13492
+        },
+        {
+          "filename": "public/images/skydio/security/outdoor-security-camera-cluster-768.webp",
+          "width": 768,
+          "height": 768,
+          "format": "webp",
+          "bytes": 35744
+        },
+        {
+          "filename": "public/images/skydio/security/outdoor-security-camera-cluster-768.avif",
+          "width": 768,
+          "height": 768,
+          "format": "avif",
+          "bytes": 24290
+        },
+        {
+          "filename": "public/images/skydio/security/outdoor-security-camera-cluster-1172.webp",
+          "width": 1172,
+          "height": 1172,
+          "format": "webp",
+          "bytes": 61582
+        },
+        {
+          "filename": "public/images/skydio/security/outdoor-security-camera-cluster-1172.avif",
+          "width": 1172,
+          "height": 1172,
+          "format": "avif",
+          "bytes": 38776
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "014",
+      "filename": "public/images/skydio/security/drone-spotlight-night-patrol.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/59cf5cb7ba7ddbca89b47e89df136a2f4b63739b-2992x1684.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 2992,
+        "height": 1684
+      },
+      "file_format": "PNG",
+      "bytes": 2104557,
+      "sha256": "34ce63b988e66915bb2adb784844027ebe34562d587d16fc715e2ffa34c5b7ad",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Security Intelligence",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-480.webp",
+          "width": 480,
+          "height": 270,
+          "format": "webp",
+          "bytes": 4960
+        },
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-480.avif",
+          "width": 480,
+          "height": 270,
+          "format": "avif",
+          "bytes": 3262
+        },
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-768.webp",
+          "width": 768,
+          "height": 432,
+          "format": "webp",
+          "bytes": 8948
+        },
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-768.avif",
+          "width": 768,
+          "height": 432,
+          "format": "avif",
+          "bytes": 5465
+        },
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-1280.webp",
+          "width": 1280,
+          "height": 720,
+          "format": "webp",
+          "bytes": 17420
+        },
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-1280.avif",
+          "width": 1280,
+          "height": 720,
+          "format": "avif",
+          "bytes": 9429
+        },
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-1920.webp",
+          "width": 1920,
+          "height": 1081,
+          "format": "webp",
+          "bytes": 29772
+        },
+        {
+          "filename": "public/images/skydio/security/drone-spotlight-night-patrol-1920.avif",
+          "width": 1920,
+          "height": 1081,
+          "format": "avif",
+          "bytes": 15025
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "018",
+      "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup.jpg",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/9a7bd1413199818913d295938bdebe6bd6ef7a2f-4096x2731.jpg",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 4096,
+        "height": 2731
+      },
+      "file_format": "JPEG",
+      "bytes": 308127,
+      "sha256": "666a06620731cce09758fb9ad67593c834ccd6f533dde9d0ea84798c3d12d1fc",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-480.webp",
+          "width": 480,
+          "height": 320,
+          "format": "webp",
+          "bytes": 6502
+        },
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-480.avif",
+          "width": 480,
+          "height": 320,
+          "format": "avif",
+          "bytes": 4334
+        },
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-768.webp",
+          "width": 768,
+          "height": 512,
+          "format": "webp",
+          "bytes": 11714
+        },
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-768.avif",
+          "width": 768,
+          "height": 512,
+          "format": "avif",
+          "bytes": 7329
+        },
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-1280.webp",
+          "width": 1280,
+          "height": 853,
+          "format": "webp",
+          "bytes": 22510
+        },
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-1280.avif",
+          "width": 1280,
+          "height": 853,
+          "format": "avif",
+          "bytes": 13104
+        },
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-1920.webp",
+          "width": 1920,
+          "height": 1280,
+          "format": "webp",
+          "bytes": 37430
+        },
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-in-flight-closeup-1920.avif",
+          "width": 1920,
+          "height": 1280,
+          "format": "avif",
+          "bytes": 20492
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "019",
+      "filename": "public/images/skydio/unassigned/drone-dock-substation-blue-hour.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/19d8d81930949299032e77ef817165dbe0f7786a-1970x1108.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 1970,
+        "height": 1108
+      },
+      "file_format": "PNG",
+      "bytes": 2817739,
+      "sha256": "41d7ea5514e16dcd955e2c28157c1e513fabfc12bd3e6666798f5ee096908f81",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Possible product render or composite: photographer permission may not cover this asset. Do not integrate without asset-specific clearance.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/unassigned/drone-dock-substation-blue-hour-960.webp",
+          "width": 960,
+          "height": 540,
+          "format": "webp",
+          "bytes": 17888
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "020",
+      "filename": "public/images/skydio/drones/indoor-drone-industrial-building.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5508a47f380a7d5240a27fd04d92bf55287eabf1-2186x1374.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 2186,
+        "height": 1374
+      },
+      "file_format": "PNG",
+      "bytes": 3475942,
+      "sha256": "b7901a41c8ecb83000b7714ee46433c5ca94192b25c83f3b5ee415c05b9e7e5d",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/indoor-drone-industrial-building-960.webp",
+          "width": 960,
+          "height": 603,
+          "format": "webp",
+          "bytes": 24238
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "021",
+      "filename": "public/images/skydio/aerial/aircraft-over-green-landscape.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/f1f49fd419a54fb24a2e204b050ddc1ef156f977-1920x1920.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 1920,
+        "height": 1920
+      },
+      "file_format": "PNG",
+      "bytes": 5102806,
+      "sha256": "60511c850590a47acb532daa81a8a19477bd7bf1e9b6bf2d3e815bc4ec976aef",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Possible product render or composite: photographer permission may not cover this asset. Do not integrate without asset-specific clearance.",
+      "recommended_website_section": "Unassigned",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/aerial/aircraft-over-green-landscape-960.webp",
+          "width": 960,
+          "height": 960,
+          "format": "webp",
+          "bytes": 107176
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "024",
+      "filename": "public/images/skydio/drones/skydio-drone-against-clouds.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/061d279381a791e5c44c1e5994263bf0184b7fb2-1152x640.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 640
+      },
+      "file_format": "PNG",
+      "bytes": 481263,
+      "sha256": "4e4d94b89b14e4aa1614aa91932986780737fdd01c64338d874a18975904a802",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/skydio-drone-against-clouds-960.webp",
+          "width": 960,
+          "height": 533,
+          "format": "webp",
+          "bytes": 10534
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "026",
+      "filename": "public/images/skydio/drones/rooftop-drone-docks-at-dusk.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/77fba914a746d64abd1c0db26460f1617263b9c3-8642x4672.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 8192,
+        "height": 4429
+      },
+      "file_format": "PNG",
+      "bytes": 50133589,
+      "sha256": "0c70b267832b3706fdcf3847de768ad3cfa6ea7f2ea532a31064b3813895518c",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/rooftop-drone-docks-at-dusk-960.webp",
+          "width": 960,
+          "height": 519,
+          "format": "webp",
+          "bytes": 67036
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "034",
+      "filename": "public/images/skydio/drones/skydio-x10-between-city-buildings.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/dd1e9cc79d7ee7fee4dfc872a009c0f95fb38563-912x864.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 912,
+        "height": 864
+      },
+      "file_format": "PNG",
+      "bytes": 1497255,
+      "sha256": "65e91a3d88e58d1aa2b09e10086437e070360c8aab29a9fad6f09c010014eeb4",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/skydio-x10-between-city-buildings-912.webp",
+          "width": 912,
+          "height": 864,
+          "format": "webp",
+          "bytes": 119524
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "043",
+      "filename": "public/images/skydio/industrial/logistics-loading-bays-aerial.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/50e8a34058c19d696b89bb98b603374b2cebaa1f-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 244851,
+      "sha256": "66a5c66d60534ea06371cc1374ebde6f6b10a07aae7e5925bcebb3e65f360a76",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/logistics-loading-bays-aerial-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 17882
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "044",
+      "filename": "public/images/skydio/security/drone-above-secured-perimeter.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/c105a44e23ee0c59553ab85971b0f3f53abc0bf2-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 173839,
+      "sha256": "4ecce859d17f41be574c73fee82f56bb7e24fb43153dacf335ce07f5fe76b186",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/security/drone-above-secured-perimeter-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 10406
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "045",
+      "filename": "public/images/skydio/industrial/shipping-container-storage-yard.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/54f4bbc1a16d48c024bb0dbae850a9b24aad1d0f-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 211250,
+      "sha256": "ef70e4a501bfe8b14ad0c9298c20687a51ef1aebc32dccc3e23cc75f882b51d0",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries / Equipment yards",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/shipping-container-storage-yard-480.webp",
+          "width": 480,
+          "height": 266,
+          "format": "webp",
+          "bytes": 11850
+        },
+        {
+          "filename": "public/images/skydio/industrial/shipping-container-storage-yard-480.avif",
+          "width": 480,
+          "height": 266,
+          "format": "avif",
+          "bytes": 8460
+        },
+        {
+          "filename": "public/images/skydio/industrial/shipping-container-storage-yard-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 11906
+        },
+        {
+          "filename": "public/images/skydio/industrial/shipping-container-storage-yard-484.avif",
+          "width": 484,
+          "height": 268,
+          "format": "avif",
+          "bytes": 8567
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "046",
+      "filename": "public/images/skydio/aerial/commercial-campus-courtyard.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5206e7cdc0e7dd30d431797207157562c0f195c9-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 314345,
+      "sha256": "4bfb9198705cf5332f174cdacfcf22f04f7749d5079f499dbb543f04d3c24327",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/aerial/commercial-campus-courtyard-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 33660
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "047",
+      "filename": "public/images/skydio/aerial/yellow-car-parking-structure.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/c61d44328cc0e4d048dd9deb5920c1a4dfe971f6-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 223669,
+      "sha256": "b64dd5a5c4dba0c573979dc9c8910b1724b464b9089afb3ab79892f013af5dfd",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/aerial/yellow-car-parking-structure-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 11420
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "048",
+      "filename": "public/images/skydio/aerial/airport-apron-aerial.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/bf191790badc70960fbae2f21da7eaf3314ca568-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 270298,
+      "sha256": "05390fa277b9d46b220194512370774ca7b485b1e1c689d5c2a477682b9ec252",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/aerial/airport-apron-aerial-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 27746
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "049",
+      "filename": "public/images/skydio/industrial/drone-over-power-infrastructure.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/2efef4d4537c2867df1892e0db2fe21a57fd62b2-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 179879,
+      "sha256": "b7e6cddb2bccc3843007dba9922011e0b3398ee67c7580da1bc30b38fa3297e8",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/drone-over-power-infrastructure-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 11648
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "050",
+      "filename": "public/images/skydio/industrial/industrial-logistics-property-aerial.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/26ce074006e611e8e863f3af16433bec3e2534fd-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 308640,
+      "sha256": "a4957009219e6acd5c6cfc7c79797c78914537154bedac2d8874239a6ad463be",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries / Industrial",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/industrial-logistics-property-aerial-480.webp",
+          "width": 480,
+          "height": 266,
+          "format": "webp",
+          "bytes": 34670
+        },
+        {
+          "filename": "public/images/skydio/industrial/industrial-logistics-property-aerial-480.avif",
+          "width": 480,
+          "height": 266,
+          "format": "avif",
+          "bytes": 28039
+        },
+        {
+          "filename": "public/images/skydio/industrial/industrial-logistics-property-aerial-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 36564
+        },
+        {
+          "filename": "public/images/skydio/industrial/industrial-logistics-property-aerial-484.avif",
+          "width": 484,
+          "height": 268,
+          "format": "avif",
+          "bytes": 29690
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "051",
+      "filename": "public/images/skydio/industrial/vehicle-inventory-aerial.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/03fc162c2d77d0e5a0c17ca2abf91c226a756c44-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 280131,
+      "sha256": "dedee33b4612329dd9a77a6e4586eab686be434a09e21a29bd5d839645a7bc54",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries / Dealerships",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/vehicle-inventory-aerial-480.webp",
+          "width": 480,
+          "height": 266,
+          "format": "webp",
+          "bytes": 25510
+        },
+        {
+          "filename": "public/images/skydio/industrial/vehicle-inventory-aerial-480.avif",
+          "width": 480,
+          "height": 266,
+          "format": "avif",
+          "bytes": 20711
+        },
+        {
+          "filename": "public/images/skydio/industrial/vehicle-inventory-aerial-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 26482
+        },
+        {
+          "filename": "public/images/skydio/industrial/vehicle-inventory-aerial-484.avif",
+          "width": 484,
+          "height": 268,
+          "format": "avif",
+          "bytes": 21473
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "052",
+      "filename": "public/images/skydio/industrial/commercial-building-construction.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/c1a089ea7d37db85fa3ecc2a0dad281c07c319b1-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 216811,
+      "sha256": "a18020a82c4c7a518f1cc311053a2093998f4dce1d90abb4a0d7d12b25751677",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries / Construction",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/commercial-building-construction-480.webp",
+          "width": 480,
+          "height": 266,
+          "format": "webp",
+          "bytes": 13366
+        },
+        {
+          "filename": "public/images/skydio/industrial/commercial-building-construction-480.avif",
+          "width": 480,
+          "height": 266,
+          "format": "avif",
+          "bytes": 9550
+        },
+        {
+          "filename": "public/images/skydio/industrial/commercial-building-construction-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 13852
+        },
+        {
+          "filename": "public/images/skydio/industrial/commercial-building-construction-484.avif",
+          "width": 484,
+          "height": 268,
+          "format": "avif",
+          "bytes": 10067
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "053",
+      "filename": "public/images/skydio/aerial/stadium-interior-at-night.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/0a243682fb0f8f77a69535852a929457fe447fa9-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 277270,
+      "sha256": "47ed23f5cb547feb31582a6e0cfd11f7d03e3af7c494a984b9bd1897cb71882d",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Unassigned",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/aerial/stadium-interior-at-night-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 23444
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "054",
+      "filename": "public/images/skydio/industrial/shipping-port-cranes-aerial.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/0e55e7c973d6bebe1059a9e93a714da35dc78d95-484x268.png",
+      "source_page": "https://www.skydio.com/solutions/physical-security",
+      "source_pages": [
+        "https://www.skydio.com/solutions/physical-security"
+      ],
+      "resolution": {
+        "width": 484,
+        "height": 268
+      },
+      "file_format": "PNG",
+      "bytes": 326364,
+      "sha256": "abe29715ce98aa80852c487e180969c5c46ff183c065f2fc7dbe221141e019e6",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/shipping-port-cranes-aerial-484.webp",
+          "width": 484,
+          "height": 268,
+          "format": "webp",
+          "bytes": 40770
+        }
+      ],
+      "limitations": [
+        "Small native image; use only in compact cards. No high-resolution source is exposed by these pages."
+      ]
+    },
+    {
+      "id": "060",
+      "filename": "public/images/skydio/unassigned/skydio-x10-studio-front-view.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/cd1548472b57be4da19c8f202ba4cdfe3148f76b-2930x1120.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 2930,
+        "height": 1120
+      },
+      "file_format": "PNG",
+      "bytes": 1127569,
+      "sha256": "f9cc08410fe7e13f852b0822a9eb070bb267c3b5ca9a177cbee0c56172a74311",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Possible product render or composite: photographer permission may not cover this asset. Do not integrate without asset-specific clearance.",
+      "recommended_website_section": "Sihilo Air pending verification",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/unassigned/skydio-x10-studio-front-view-960.webp",
+          "width": 960,
+          "height": 367,
+          "format": "webp",
+          "bytes": 17756
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "061",
+      "filename": "public/images/skydio/unassigned/skydio-x10-sensor-closeup.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/5094715ecc2e064a4af8d2292f4ac2de1aa3b637-2928x1412.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 2928,
+        "height": 1412
+      },
+      "file_format": "PNG",
+      "bytes": 2167621,
+      "sha256": "c5166aaa596b1fc94c454a363a5e0ef7d3b69f2abc37f7832d4a94b8765b7db1",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Possible product render or composite: photographer permission may not cover this asset. Do not integrate without asset-specific clearance.",
+      "recommended_website_section": "How Sihilo Works pending verification",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/unassigned/skydio-x10-sensor-closeup-960.webp",
+          "width": 960,
+          "height": 463,
+          "format": "webp",
+          "bytes": 18248
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "062",
+      "filename": "public/images/skydio/unassigned/skydio-x10-sensor-module.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/07e3851b7e32f7da665dd14d3db1858072208cca-1152x760.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 760
+      },
+      "file_format": "PNG",
+      "bytes": 503441,
+      "sha256": "a0759cf83dd51cd092cc66f4525d3328a8cf30a62a09e9980e546b89d714031b",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Possible product render or composite: photographer permission may not cover this asset. Do not integrate without asset-specific clearance.",
+      "recommended_website_section": "How Sihilo Works pending verification",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/unassigned/skydio-x10-sensor-module-960.webp",
+          "width": 960,
+          "height": 633,
+          "format": "webp",
+          "bytes": 14346
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "066",
+      "filename": "public/images/skydio/industrial/solar-array-aerial.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/21f0657b38e8bd98db4c03c6447b05f09797d2af-1152x636.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 636
+      },
+      "file_format": "PNG",
+      "bytes": 1386418,
+      "sha256": "7e3ab0bec556670f1a31f026162adb6d1cf63de8bf5782f7c35b8f407ecc36c9",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Industries alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/solar-array-aerial-960.webp",
+          "width": 960,
+          "height": 530,
+          "format": "webp",
+          "bytes": 81942
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "069",
+      "filename": "public/images/skydio/industrial/electrical-substation-detail.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/ffed57a8227055968ed579de1a0c2b95786e3e45-1152x636.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 636
+      },
+      "file_format": "PNG",
+      "bytes": 1121615,
+      "sha256": "03ea870a4384920addbdd8a9a19ea6e9bfbd773d6f55cfd4a98d47baad2b24be",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "How Sihilo Works alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/industrial/electrical-substation-detail-960.webp",
+          "width": 960,
+          "height": 530,
+          "format": "webp",
+          "bytes": 48550
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "071",
+      "filename": "public/images/skydio/thermal/thermal-electrical-transformer.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/fdc70cb3f20f2e9ad6dce2a2bb22d832f301faa9-1152x648.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 648
+      },
+      "file_format": "PNG",
+      "bytes": 1619713,
+      "sha256": "43f0e2d81375279bbe5ef07baeefae453e04d9f7596779779a3dc138c17c75c4",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Thermal sensor capture: unclear whether photographer permission covers this data product. Hold for asset-specific clearance.",
+      "recommended_website_section": "Security Intelligence alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/thermal/thermal-electrical-transformer-960.webp",
+          "width": 960,
+          "height": 540,
+          "format": "webp",
+          "bytes": 109512
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "072",
+      "filename": "public/images/skydio/thermal/thermal-people-on-rooftop.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/7c55dd46ab229ab6777db49599f515beae121193-1152x648.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 648
+      },
+      "file_format": "PNG",
+      "bytes": 509753,
+      "sha256": "8039ca6520babe9ffeb1b5d5f36bc6efd2bd4c0c375334794cf2c47133f86eab",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Thermal sensor capture: unclear whether photographer permission covers this data product. Hold for asset-specific clearance.",
+      "recommended_website_section": "Security Intelligence alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/thermal/thermal-people-on-rooftop-960.webp",
+          "width": 960,
+          "height": 540,
+          "format": "webp",
+          "bytes": 40192
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "076",
+      "filename": "public/images/skydio/aerial/commercial-property-aerial-at-dusk.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/78844d01197d6a7eb634557841b191343320dc46-1152x640.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 640
+      },
+      "file_format": "PNG",
+      "bytes": 972214,
+      "sha256": "87933bc4db01acaa0e444c2a6cad2beb1e8610834b75301791067f5ff0b9f454",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Final CTA",
+      "integrated": true,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/aerial/commercial-property-aerial-at-dusk-480.webp",
+          "width": 480,
+          "height": 267,
+          "format": "webp",
+          "bytes": 10614
+        },
+        {
+          "filename": "public/images/skydio/aerial/commercial-property-aerial-at-dusk-480.avif",
+          "width": 480,
+          "height": 267,
+          "format": "avif",
+          "bytes": 7791
+        },
+        {
+          "filename": "public/images/skydio/aerial/commercial-property-aerial-at-dusk-768.webp",
+          "width": 768,
+          "height": 427,
+          "format": "webp",
+          "bytes": 20568
+        },
+        {
+          "filename": "public/images/skydio/aerial/commercial-property-aerial-at-dusk-768.avif",
+          "width": 768,
+          "height": 427,
+          "format": "avif",
+          "bytes": 14500
+        },
+        {
+          "filename": "public/images/skydio/aerial/commercial-property-aerial-at-dusk-1152.webp",
+          "width": 1152,
+          "height": 640,
+          "format": "webp",
+          "bytes": 34914
+        },
+        {
+          "filename": "public/images/skydio/aerial/commercial-property-aerial-at-dusk-1152.avif",
+          "width": 1152,
+          "height": 640,
+          "format": "avif",
+          "bytes": 24006
+        }
+      ],
+      "limitations": [
+        "Dusk, not full night; native width is 1152 pixels. Use as a contained CTA photograph, not a full-screen background."
+      ]
+    },
+    {
+      "id": "079",
+      "filename": "public/images/skydio/drones/skydio-drone-night-flight.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b6f2e82a32580b204b4ac90dfd39283275192c57-2354x1152.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 2354,
+        "height": 1152
+      },
+      "file_format": "PNG",
+      "bytes": 1317050,
+      "sha256": "503b5f2b6672e9708b738d9e035c44bd6299b06a38b2f1ae2962e6e64a31e215",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/skydio-drone-night-flight-960.webp",
+          "width": 960,
+          "height": 470,
+          "format": "webp",
+          "bytes": 8532
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "103",
+      "filename": "public/images/skydio/unassigned/skydio-x10-propeller-closeup.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/fc5c9bb4342e8f06c5473897e95bef9af11f6a42-1152x648.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 648
+      },
+      "file_format": "PNG",
+      "bytes": 277038,
+      "sha256": "94d6434751f2a503401c57acbcc7e034efbd9c0b8ea70282f93cf44000f41a84",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Possible product render or composite: photographer permission may not cover this asset. Do not integrate without asset-specific clearance.",
+      "recommended_website_section": "Sihilo Air pending verification",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/unassigned/skydio-x10-propeller-closeup-960.webp",
+          "width": 960,
+          "height": 540,
+          "format": "webp",
+          "bytes": 12478
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "104",
+      "filename": "public/images/skydio/unassigned/skydio-x10-body-detail.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/8c84d5f683adf42b5a37f30f79b33fd88f35f56d-1152x880.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1152,
+        "height": 880
+      },
+      "file_format": "PNG",
+      "bytes": 589942,
+      "sha256": "7bdb023ad436da5de960cb24cec03a96b255d8e45c4853bff4f122b3557e53f4",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "hold-scope-uncertain",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Possible product render or composite: photographer permission may not cover this asset. Do not integrate without asset-specific clearance.",
+      "recommended_website_section": "Sihilo Air pending verification",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/unassigned/skydio-x10-body-detail-960.webp",
+          "width": 960,
+          "height": 733,
+          "format": "webp",
+          "bytes": 16716
+        }
+      ],
+      "limitations": []
+    },
+    {
+      "id": "105",
+      "filename": "public/images/skydio/drones/skydio-drone-in-rain.png",
+      "original_source_url": "https://cdn.sanity.io/images/mgxz50fq/production-v3-red/b5b96759982adb8587fe480ffaa37063f8e53950-1920x1080.png",
+      "source_page": "https://www.skydio.com/x10",
+      "source_pages": [
+        "https://www.skydio.com/x10"
+      ],
+      "resolution": {
+        "width": 1920,
+        "height": 1080
+      },
+      "file_format": "PNG",
+      "bytes": 1546952,
+      "sha256": "a9009485536441d1a2f0ddf042dd83e8ee1f9686a6880cd423cd44ccc9f5fb21",
+      "photographer_attribution": "Not supplied; source page does not identify the photographer for this asset.",
+      "permission_status": "user-reported-photographer-permission",
+      "permission_basis": "User states photographer permission for photographs from both reference pages. No license document or asset-level attribution supplied.",
+      "permission_notes": "Photographic candidate; author identity and exact scope unverified. No independently verified license is claimed.",
+      "recommended_website_section": "Sihilo Air alternative",
+      "integrated": false,
+      "derivatives": [
+        {
+          "filename": "public/images/skydio/drones/skydio-drone-in-rain-960.webp",
+          "width": 960,
+          "height": 540,
+          "format": "webp",
+          "bytes": 40692
+        }
+      ],
+      "limitations": []
+    }
+  ]
+}
