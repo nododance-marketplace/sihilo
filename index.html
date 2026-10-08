@@ -155,6 +155,17 @@
           <p class="section__intro">Your property has thousands of signals. Sihilo is designed to turn them into one picture. The architecture is hardware-flexible: a drone is one mobile sensor within a broader system.</p>
         </div>
         <figure class="intelligence-photo photo-panel reveal"><picture class=""><source type="image/avif" srcset="/images/skydio/security/drone-spotlight-night-patrol-480.avif 480w, /images/skydio/security/drone-spotlight-night-patrol-768.avif 768w, /images/skydio/security/drone-spotlight-night-patrol-1280.avif 1280w, /images/skydio/security/drone-spotlight-night-patrol-1920.avif 1920w" sizes="(max-width: 700px) 90vw, 1180px" /><source type="image/webp" srcset="/images/skydio/security/drone-spotlight-night-patrol-480.webp 480w, /images/skydio/security/drone-spotlight-night-patrol-768.webp 768w, /images/skydio/security/drone-spotlight-night-patrol-1280.webp 1280w, /images/skydio/security/drone-spotlight-night-patrol-1920.webp 1920w" sizes="(max-width: 700px) 90vw, 1180px" /><img src="/images/skydio/security/drone-spotlight-night-patrol-1920.webp" alt="Drone using a downward spotlight beside trees at night" width="1920" height="1081" sizes="(max-width: 700px) 90vw, 1180px" loading="lazy" decoding="async" /></picture><figcaption>Another angle when context matters.<span>Illustrative aerial flight. Aerial verification is a Sihilo roadmap capability.</span></figcaption></figure>
+        <div class="intelligence-media reveal">
+          <figure class="photo-panel detection-panel">
+            <div class="detection-panel__media">
+              <video id="detectionVideo" class="detection-video" muted loop playsinline preload="none" poster="assets/security/computer-vision-poster.jpg" aria-describedby="detection-caption">
+                <source data-src="assets/security/computer-vision-detection.mp4" type="video/mp4" />
+              </video>
+            </div>
+            <figcaption id="detection-caption"><strong>Understand the activity.</strong><span>Illustrative detection footage showing vehicles, a person and an animal. Detection overlays are examples, not live Sihilo analytics.</span><button type="button" class="btn btn--ghost media-toggle" id="detectionToggle" aria-controls="detectionVideo" aria-pressed="true">Play detection video</button></figcaption>
+          </figure>
+          <figure class="photo-panel thermal-panel"><picture class=""><source type="image/avif" srcset="assets/security/thermal-perimeter-480.avif 480w, assets/security/thermal-perimeter-768.avif 768w, assets/security/thermal-perimeter-1280.avif 1280w, assets/security/thermal-perimeter-1408.avif 1408w" sizes="(max-width: 700px) 90vw, 500px" /><source type="image/webp" srcset="assets/security/thermal-perimeter-480.webp 480w, assets/security/thermal-perimeter-768.webp 768w, assets/security/thermal-perimeter-1280.webp 1280w, assets/security/thermal-perimeter-1408.webp 1408w" sizes="(max-width: 700px) 90vw, 500px" /><img src="assets/security/thermal-perimeter-1408.webp" alt="Thermal view of a person beside a property perimeter fence" width="1408" height="768" loading="lazy" decoding="async" /></picture><figcaption><strong>Verify from another signal.</strong><span>Thermal imagery adds another viewpoint after dark. Shown for illustration.</span></figcaption></figure>
+        </div>
         <div class="architecture reveal" role="group" aria-label="Proposed architecture: cameras, thermal, drones, acoustic, RF and access systems feed Sihilo intelligence, supporting anomaly detection, site memory, verification and human response.">
           <ul class="architecture__inputs"><li>Fixed cameras</li><li>Thermal</li><li>Drones</li><li>Acoustic</li><li>RF / network</li><li>Access systems</li></ul>
           <div class="architecture__core"><img src="assets/logo-mark.png" alt="" width="46" height="40" /><strong>SIHILO<br />INTELLIGENCE</strong><span>Proposed architecture</span></div>
@@ -178,35 +189,10 @@
           <p class="section__intro">A camera sees movement. Thermal adds context. The proposed dashboard brings those signals together for human review.</p>
         </div>
         <p class="dash__disclosure">Illustrative interface &mdash; no live customer data. All events, sensor states and confidence values below are examples.</p>
-        <div class="dash reveal">
-          <div class="dash__bar">
-            <span class="dash__sitename">SIHILO / EXAMPLE CHARLOTTE SITE</span>
-            <div class="dash__status" data-state="incident"><span class="dash__status-text">SITE STATUS: REVIEW REQUIRED</span></div>
-            <span class="dash__clock">02:37:24 / EXAMPLE</span>
-          </div>
-          <div class="dash__body">
-            <div class="dash__visuals">
-              <h3 class="rail__title">Camera feeds / illustrative</h3>
-              <div class="dash__feeds" role="group" aria-label="Illustrative camera viewpoints, not live footage">
-                <div class="feed feed--lot"><span class="feed__scene">LOT A</span><div class="feed__scan" aria-hidden="true"></div><div class="feed__meta">Camera 01 &middot; Inventory</div></div>
-                <div class="feed feed--alert"><span class="feed__scene">EAST PERIMETER</span><div class="feed__box" aria-hidden="true"></div><div class="feed__meta">Camera 03 &middot; Person detected</div></div>
-              </div>
-              <div class="site-map"><h3 class="rail__title">Site map</h3><div class="site-map__layout"><span>Inventory / lot A</span><span>Building / loading</span><span>Gate 3</span><span class="site-map__event">Incident 014<br />East perimeter</span></div></div>
-            </div>
-            <aside class="dash__rail" aria-label="Example incident details">
-              <div class="rail__block">
-                <h3 class="rail__title">Anomaly timeline / Incident 014</h3>
-                <ol class="rail__alerts">
-                  <li class="rail__alert"><div class="rail__alert-top"><span class="rail__alert-tag">Person detected</span><time>02:37:14</time></div><span>East perimeter &middot; Camera 03<br />Confidence: 94% (example)</span></li>
-                  <li class="rail__alert"><div class="rail__alert-top"><span class="rail__alert-tag">Thermal confirmation</span><time>02:37:18</time></div><span>1 heat signature &middot; Same location</span></li>
-                  <li class="rail__alert is-incident"><div class="rail__alert-top"><span class="rail__alert-tag">Event created</span><time>02:37:24</time></div><span>Signals linked to Incident 014.<br />Awaiting human verification.</span></li>
-                </ol>
-              </div>
-              <div class="rail__block rail__sensors"><h3 class="rail__title">Sensor status / example</h3><p class="sensor-summary">Cameras <span>Online</span><br />Thermal <span>Online</span><br />Aerial <span>Not deployed</span></p></div>
-            </aside>
-          </div>
-          <div class="dash__summary"><div><h3 class="rail__title">Recent events</h3><p>02:12 &middot; Gate 3 &middot; Vehicle departure<br />02:37 &middot; East perimeter &middot; Review required</p></div><div><h3 class="rail__title">Storage / Site Memory concept</h3><p>Incident 014 &middot; Preserve source clips<br />Routine footage &middot; Follow site retention policy</p></div></div>
-        </div>
+        <figure class="photo-panel dashboard-concept reveal">
+          <a href="assets/security/sihilo-operations-dashboard-1600.webp" target="_blank" rel="noopener" aria-label="Open the Sihilo dashboard concept at full resolution"><picture class=""><source type="image/avif" srcset="assets/security/sihilo-operations-dashboard-480.avif 480w, assets/security/sihilo-operations-dashboard-768.avif 768w, assets/security/sihilo-operations-dashboard-1280.avif 1280w, assets/security/sihilo-operations-dashboard-1600.avif 1600w" sizes="(max-width: 700px) 90vw, 1180px" /><source type="image/webp" srcset="assets/security/sihilo-operations-dashboard-480.webp 480w, assets/security/sihilo-operations-dashboard-768.webp 768w, assets/security/sihilo-operations-dashboard-1280.webp 1280w, assets/security/sihilo-operations-dashboard-1600.webp 1600w" sizes="(max-width: 700px) 90vw, 1180px" /><img src="assets/security/sihilo-operations-dashboard-1600.webp" alt="Sihilo interface concept combining camera viewpoints, a site map, thermal imagery, an anomaly timeline and human event review" width="1600" height="982" loading="lazy" decoding="async" /></picture></a>
+          <figcaption>One view for the moments that matter.<span>Interface concept &middot; Open the image to explore the full layout.</span></figcaption>
+        </figure>
         <p class="dash__note">The interface is a design preview. It does not connect to cameras, detect events or dispatch a response.</p>
       </div>
     </section>
@@ -221,6 +207,10 @@
           <a class="btn btn--ghost" href="#contact">Discuss Your Site’s Coverage</a>
         </div>
         <figure class="photo-panel air__photo reveal"><picture class=""><source type="image/avif" srcset="/images/skydio/drones/skydio-x10-in-flight-closeup-480.avif 480w, /images/skydio/drones/skydio-x10-in-flight-closeup-768.avif 768w, /images/skydio/drones/skydio-x10-in-flight-closeup-1280.avif 1280w, /images/skydio/drones/skydio-x10-in-flight-closeup-1920.avif 1920w" sizes="(max-width: 700px) 90vw, 560px" /><source type="image/webp" srcset="/images/skydio/drones/skydio-x10-in-flight-closeup-480.webp 480w, /images/skydio/drones/skydio-x10-in-flight-closeup-768.webp 768w, /images/skydio/drones/skydio-x10-in-flight-closeup-1280.webp 1280w, /images/skydio/drones/skydio-x10-in-flight-closeup-1920.webp 1920w" sizes="(max-width: 700px) 90vw, 560px" /><img src="/images/skydio/drones/skydio-x10-in-flight-closeup-1920.webp" alt="Close-up of a drone in flight against a cloudy sky" width="1920" height="1280" sizes="(max-width: 700px) 90vw, 560px" loading="lazy" decoding="async" /></picture><figcaption>Aerial perspective <span>Third-party hardware shown for illustration.</span></figcaption></figure>
+      </div>
+      <div class="container air-response">
+        <figure class="photo-panel air-response__image reveal"><picture class=""><source type="image/avif" srcset="assets/security/speaker-activation-480.avif 480w, assets/security/speaker-activation-768.avif 768w, assets/security/speaker-activation-941.avif 941w" sizes="(max-width: 700px) 90vw, 560px" /><source type="image/webp" srcset="assets/security/speaker-activation-480.webp 480w, assets/security/speaker-activation-768.webp 768w, assets/security/speaker-activation-941.webp 941w" sizes="(max-width: 700px) 90vw, 560px" /><img src="assets/security/speaker-activation-941.webp" alt="Illustrative speaker control and spotlight illuminating a person beside an industrial building" width="941" height="630" loading="lazy" decoding="async" /></picture><figcaption>Operator-controlled deterrence<span>Illustrative aerial speaker activation.</span></figcaption></figure>
+        <div class="reveal"><p class="kicker">Context before action</p><h3 class="air-response__title">A human decides<br />what happens next.</h3><p class="section__intro">An aerial viewpoint can help an operator understand an event before deciding how to respond. A spotlight or speaker can add a visible or audible warning where the site plan allows.</p><p class="section__footnote">Aerial deterrence is a planned workflow. Hardware, operator controls and response procedures are defined for each pilot.</p></div>
       </div>
       <p class="container section__footnote">Sihilo develops the intelligence layer, not the aircraft. Imagery does not indicate hardware ownership, a confirmed integration or a hardware partnership.</p>
     </section>

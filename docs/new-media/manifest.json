@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-08",
+  "assets": [
+    {
+      "source": "D:\\Downloads\\SIHILO\\New Images\\Neon Night Security Operations Dashboard.png",
+      "sha256": "121bdbaf190c83d4b8de3ad105c5682b64181a5555c5451e49b76ba9b2a301f1",
+      "name": "sihilo-operations-dashboard",
+      "section": "Dashboard concept",
+      "width": 1601,
+      "height": 983,
+      "permission": "User supplied and requested publication; ownership not independently verified.",
+      "derivatives": [
+        {
+          "file": "assets/security/sihilo-operations-dashboard-480.avif",
+          "width": 480,
+          "height": 295,
+          "bytes": 18384
+        },
+        {
+          "file": "assets/security/sihilo-operations-dashboard-480.webp",
+          "width": 480,
+          "height": 295,
+          "bytes": 23656
+        },
+        {
+          "file": "assets/security/sihilo-operations-dashboard-768.avif",
+          "width": 768,
+          "height": 472,
+          "bytes": 40700
+        },
+        {
+          "file": "assets/security/sihilo-operations-dashboard-768.webp",
+          "width": 768,
+          "height": 472,
+          "bytes": 51546
+        },
+        {
+          "file": "assets/security/sihilo-operations-dashboard-1280.avif",
+          "width": 1280,
+          "height": 786,
+          "bytes": 92331
+        },
+        {
+          "file": "assets/security/sihilo-operations-dashboard-1280.webp",
+          "width": 1280,
+          "height": 786,
+          "bytes": 119354
+        },
+        {
+          "file": "assets/security/sihilo-operations-dashboard-1600.avif",
+          "width": 1600,
+          "height": 982,
+          "bytes": 121925
+        },
+        {
+          "file": "assets/security/sihilo-operations-dashboard-1600.webp",
+          "width": 1600,
+          "height": 982,
+          "bytes": 162460
+        }
+      ]
+    },
+    {
+      "source": "D:\\Downloads\\SIHILO\\New Images\\speaker activation.png",
+      "sha256": "fdcadb06a25c4de191920b69f1c5285925f4a8fdd86f3cd164d38aeadf374011",
+      "name": "speaker-activation",
+      "section": "Sihilo Air",
+      "width": 941,
+      "height": 630,
+      "permission": "User supplied and requested publication; ownership not independently verified.",
+      "derivatives": [
+        {
+          "file": "assets/security/speaker-activation-480.avif",
+          "width": 480,
+          "height": 321,
+          "bytes": 8307
+        },
+        {
+          "file": "assets/security/speaker-activation-480.webp",
+          "width": 480,
+          "height": 321,
+          "bytes": 10716
+        },
+        {
+          "file": "assets/security/speaker-activation-768.avif",
+          "width": 768,
+          "height": 514,
+          "bytes": 17103
+        },
+        {
+          "file": "assets/security/speaker-activation-768.webp",
+          "width": 768,
+          "height": 514,
+          "bytes": 22528
+        },
+        {
+          "file": "assets/security/speaker-activation-941.avif",
+          "width": 941,
+          "height": 630,
+          "bytes": 24774
+        },
+        {
+          "file": "assets/security/speaker-activation-941.webp",
+          "width": 941,
+          "height": 630,
+          "bytes": 31948
+        }
+      ]
+    },
+    {
+      "source": "D:\\Downloads\\SIHILO\\New Images\\Thermal.jpg",
+      "sha256": "321020374707910dad3d2407df85aa46fe95b404bdac6ac7ae95913ad9c854b7",
+      "name": "thermal-perimeter",
+      "section": "Security Intelligence",
+      "width": 1408,
+      "height": 768,
+      "permission": "User supplied and requested publication; ownership not independently verified.",
+      "derivatives": [
+        {
+          "file": "assets/security/thermal-perimeter-480.avif",
+          "width": 480,
+          "height": 262,
+          "bytes": 7673
+        },
+        {
+          "file": "assets/security/thermal-perimeter-480.webp",
+          "width": 480,
+          "height": 262,
+          "bytes": 13228
+        },
+        {
+          "file": "assets/security/thermal-perimeter-768.avif",
+          "width": 768,
+          "height": 419,
+          "bytes": 17520
+        },
+        {
+          "file": "assets/security/thermal-perimeter-768.webp",
+          "width": 768,
+          "height": 419,
+          "bytes": 29220
+        },
+        {
+          "file": "assets/security/thermal-perimeter-1280.avif",
+          "width": 1280,
+          "height": 698,
+          "bytes": 38295
+        },
+        {
+          "file": "assets/security/thermal-perimeter-1280.webp",
+          "width": 1280,
+          "height": 698,
+          "bytes": 63810
+        },
+        {
+          "file": "assets/security/thermal-perimeter-1408.avif",
+          "width": 1408,
+          "height": 768,
+          "bytes": 43619
+        },
+        {
+          "file": "assets/security/thermal-perimeter-1408.webp",
+          "width": 1408,
+          "height": 768,
+          "bytes": 73760
+        }
+      ]
+    },
+    {
+      "source": "D:\\Downloads\\SIHILO\\New Images\\Computer Vision detection.mp4",
+      "sha256": "424c78daaaefd9976627a122bb2f6136c2e825b8f848733d9a6a6d5ffdacd239",
+      "name": "computer-vision-detection",
+      "section": "Security Intelligence",
+      "duration_seconds": 7.151,
+      "width": 1280,
+      "height": 720,
+      "audio": "Removed from web loop; source preserved unchanged.",
+      "permission": "User supplied and requested publication; ownership not independently verified.",
+      "derivatives": [
+        {
+          "file": "assets/security/computer-vision-detection.mp4",
+          "bytes": 1392320
+        },
+        {
+          "file": "assets/security/computer-vision-poster.jpg",
+          "bytes": 114520
+        }
+      ]
+    }
+  ]
+}

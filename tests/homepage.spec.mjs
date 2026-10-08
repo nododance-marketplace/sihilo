@@ -26,8 +26,8 @@ test('photography, responsive layout, accessibility and conversion paths', async
   }
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBeTruthy();
   const images = await page.locator('picture img').evaluateAll(nodes => nodes.map(el => ({ src: el.currentSrc, width: el.naturalWidth, renderedWidth: Math.round(el.getBoundingClientRect().width), loading: el.loading })));
-  expect(images).toHaveLength(9);
-  expect(images.every(i => i.src.includes('/images/skydio/'))).toBeTruthy();
+  expect(images).toHaveLength(12);
+  expect(images.every(i => i.src.includes('/images/skydio/') || i.src.includes('/assets/security/'))).toBeTruthy();
   const accessibility = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa', 'wcag21aa']).analyze();
   expect(accessibility.violations).toEqual([]);
   await page.screenshot({ path: `docs/skydio/${testInfo.project.name}-full.png`, fullPage: true });
@@ -36,6 +36,7 @@ test('photography, responsive layout, accessibility and conversion paths', async
     await page.locator(`#${section}`).screenshot({ path: `docs/skydio/${testInfo.project.name}-${section}.png` });
   }
   await page.locator('.section--closing').screenshot({ path: `docs/skydio/${testInfo.project.name}-closing.png` });
+  await page.locator('#dashboard').screenshot({ path: `docs/new-media/${testInfo.project.name}-dashboard.png` });
   if (testInfo.project.name === 'mobile' || testInfo.project.name === 'small-mobile') {
     await page.evaluate(() => window.scrollTo(0,0));
     await page.locator('#navToggle').click();
@@ -61,6 +62,20 @@ test('photography, responsive layout, accessibility and conversion paths', async
   await expect(video).toHaveJSProperty('paused', true);
   await page.locator('#motionToggle').click();
   await expect(video).toHaveJSProperty('paused', false);
+  const detection = page.locator('#detectionVideo');
+  await expect(detection.locator('source')).not.toHaveAttribute('src');
+  await detection.scrollIntoViewIfNeeded();
+  await expect.poll(() => detection.evaluate(el => el.readyState)).toBeGreaterThanOrEqual(2);
+  await expect(detection).toHaveJSProperty('paused', false);
+  await expect(detection).toHaveJSProperty('loop', true);
+  await expect(detection).toHaveJSProperty('muted', true);
+  await page.locator('#detectionToggle').click();
+  await expect(detection).toHaveJSProperty('paused', true);
+  await page.locator('#detectionToggle').click();
+  await expect(detection).toHaveJSProperty('paused', false);
+  await page.locator('#motionToggle').click();
+  await expect(detection).toHaveJSProperty('paused', true);
+  await expect(video).toHaveJSProperty('paused', true);
   expect(failures).toEqual([]);
   await writeFile(`docs/skydio/${testInfo.project.name}-metrics.json`, JSON.stringify({ ...metrics, images, errors: failures, accessibilityViolations: accessibility.violations.length }, null, 2));
 });

@@ -1,6 +1,6 @@
 {
   "layoutShift": 0,
-  "imageBytes": 205343,
+  "imageBytes": 360743,
   "images": [
     {
       "src": "http://127.0.0.1:4173/images/skydio/industrial/skydio-x10-substation-flight-1280.avif",
@@ -21,8 +21,26 @@
       "loading": "lazy"
     },
     {
+      "src": "http://127.0.0.1:4173/assets/security/thermal-perimeter-1280.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/assets/security/sihilo-operations-dashboard-1280.avif",
+      "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
       "src": "http://127.0.0.1:4173/images/skydio/drones/skydio-x10-in-flight-closeup-1280.avif",
       "width": 351,
+      "renderedWidth": 348,
+      "loading": "lazy"
+    },
+    {
+      "src": "http://127.0.0.1:4173/assets/security/speaker-activation-941.avif",
+      "width": 350,
       "renderedWidth": 348,
       "loading": "lazy"
     },

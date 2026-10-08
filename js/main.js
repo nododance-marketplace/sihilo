@@ -142,6 +142,7 @@
   // The dashboard is a static, explicitly labelled concept, not live telemetry.
   const motionToggle = document.getElementById("motionToggle");
   let motionPaused = prefersReducedMotion;
+  let syncDetectionVideo = () => {};
   const applyMotion = () => {
     document.body.classList.toggle("motion-paused", motionPaused);
     if (motionToggle) {
@@ -152,12 +153,59 @@
       if (motionPaused) heroVideo.pause();
       else heroVideo.play().catch(() => {});
     }
+    syncDetectionVideo();
   };
   if (motionToggle) motionToggle.addEventListener("click", () => {
     motionPaused = !motionPaused;
     applyMotion();
   });
   applyMotion();
+
+  // Load the detection loop only near the viewport; share the page motion setting.
+  const detectionVideo = /** @type {HTMLVideoElement | null} */ (document.getElementById("detectionVideo"));
+  const detectionToggle = document.getElementById("detectionToggle");
+  if (detectionVideo && detectionToggle) {
+    let inView = false;
+    let userPaused = false;
+    let loaded = false;
+    syncDetectionVideo = () => {
+      const paused = motionPaused || userPaused || !inView;
+      if (!paused && !loaded) {
+        const source = detectionVideo.querySelector("source");
+        if (source) source.src = source.getAttribute("data-src");
+        detectionVideo.load();
+        loaded = true;
+      }
+      if (paused) detectionVideo.pause();
+      else detectionVideo.play().catch(() => {
+        detectionToggle.textContent = "Play detection video";
+        detectionToggle.setAttribute("aria-pressed", "true");
+      });
+      detectionToggle.textContent = paused ? "Play detection video" : "Pause detection video";
+      detectionToggle.setAttribute("aria-pressed", String(paused));
+    };
+    detectionToggle.addEventListener("click", () => {
+      if (motionPaused || userPaused || detectionVideo.paused) {
+        userPaused = false;
+        motionPaused = false;
+      } else userPaused = true;
+      applyMotion();
+    });
+    detectionVideo.addEventListener("error", () => {
+      detectionToggle.textContent = "Video unavailable";
+      detectionToggle.setAttribute("disabled", "");
+    });
+    if ("IntersectionObserver" in window) {
+      const videoObserver = new IntersectionObserver(entries => {
+        inView = entries[0].isIntersecting;
+        syncDetectionVideo();
+      }, { threshold: 0.15 });
+      videoObserver.observe(detectionVideo);
+    } else {
+      inView = true;
+      syncDetectionVideo();
+    }
+  }
 
   /* Site assessment / pilot intake: validates locally and prepares an email. */
   const form = document.querySelector("form");

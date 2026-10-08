@@ -35,6 +35,7 @@ Runs ESLint, HTML validation, TypeScript checking of the existing JavaScript thr
 - `css/photography.css`: photo crops, image panels and responsive placement.
 - `js/main.js`: navigation, motion controls and assessment/pilot email form.
 - `assets/`: existing Sihilo owl marks, art, favicons and social image. The original drone-to-owl hero video and poster are used by the homepage/build.
+- `assets/security/`: supplied dashboard, thermal and speaker imagery plus the optimized detection loop; review details are in `docs/new-media/`.
 - `public/images/skydio/`: full-resolution originals and WebP/AVIF derivatives, organized by subject.
 - `public/images/skydio/image-manifest.json`: source, dimensions, hashes, permission status and placement.
 - `docs/skydio/contact-sheet.html`: clickable candidate library; open directly in a browser.
